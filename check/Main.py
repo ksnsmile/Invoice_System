@@ -18,23 +18,23 @@ from Evaluate import *
 from Preprocessing import is_image_file
 
 
-#%%
+
 def main():
     try:
         print("초기화 시작...")
         # 경로 설정
-        annotation_dir = r"C:\Users\user\Desktop\system\content_combine\annotation_combine"
-        folder_path = r"C:\Users\user\Desktop\system\content_combine\data_test2"
-        font_path = r"C:\Users\user\Desktop\system\Font\NotoSansKR-Medium.ttf"
+        
+        folder_path = r"C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\rotated_and_filtered_invoice_5"
+        font_path = r"C:\Users\user\Desktop\ksn\Invoice_System\Font\NotoSansKR-Medium.ttf"
         
         print("모델 로딩...")
         # EasyOCR 초기화
-        reader = easyocr.Reader(['ko', 'en'], model_storage_directory=r'C:\Users\user\Desktop\system\EasyOCR\workspace\user_network_dir', 
-                            user_network_directory=r'C:\Users\user\Desktop\system\EasyOCR\workspace\user_network_dir', 
+        reader = easyocr.Reader(['ko', 'en'], model_storage_directory=r'C:\Users\user\Desktop\ksn\Invoice_System\EasyOCR\workspace\user_network_dir', 
+                            user_network_directory=r'C:\Users\user\Desktop\ksn\Invoice_System\EasyOCR\workspace\user_network_dir', 
                             recog_network='custom')
         tokenizer = BertTokenizerFast.from_pretrained("bert-base-uncased")
         model = LayoutLMForTokenClassification()
-        model.load_state_dict(torch.load(r"C:\Users\user\Desktop\system\trained_model.pth"))
+        model.load_state_dict(torch.load(r"C:\Users\user\Desktop\ksn\Invoice_System\trained_model.pth"))
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         model.to(device)
         model.eval()
@@ -50,20 +50,15 @@ def main():
             if is_image_file(file_name):
                 print(f"Loading {file_name}...")
                 file_path = os.path.join(folder_path, file_name)
-                annotation_path = os.path.join(annotation_dir, os.path.splitext(file_name)[0] + '.json')
+                
                 
                 try:
                     image = Image.open(file_path).convert("RGB")
-                    ground_truth = load_ground_truth(annotation_dir, file_name)
-                    if ground_truth is None:
-                        print(f"Warning: No ground truth found for {file_name}")
-                        continue
-                        
+    
                     preprocessed_data[file_name] = {
                         'image': image,
                         'file_path': file_path,
-                        'annotation_path': annotation_path,
-                        'ground_truth': ground_truth
+                        
                     }
                     print(f"Successfully loaded {file_name}")
                 except Exception as e:
@@ -98,7 +93,6 @@ def main():
                     # EasyOCR 결과를 LayoutLM 처리에 전달
                     layoutlm_inputs = process_image_for_layoutlm(
                         data['file_path'], 
-                        data['annotation_path'], 
                         tokenizer, 
                         device,
                         easyocr_results  # OCR 결과 전달
@@ -136,14 +130,7 @@ def main():
                     print("결과 처리 중...")
                     start_time = time.time()
 
-                    results = evaluate_detection_and_text_performance(
-                        easyocr_results,
-                        layoutlm_results,
-                        data['ground_truth'],
-                        image  # image 인자 추가
-                    )
-                    
-                    overall_results.append(results)
+                   
                     
                     # 결과 시각화
                     img = visualize_comparison(image, easyocr_results, layoutlm_results, font_path)
@@ -157,23 +144,9 @@ def main():
                         'macro_f1': 0.0,
                         'weighted_f1': 0.0
                     }
-                    overall_results.append(results)
+                    
 
-                # 결과 출력
-                print(f"\nResults for {file_name}:")
-                print("\nLayoutLM Performance:")
-                print(f"Macro F1-score: {results['macro_f1']:.4f}")
-                print(f"Weighted F1-score: {results['weighted_f1']:.4f}")
-                
-                print("\nPer-label Performance:")
-                for label, metrics in results['label_metrics'].items():
-                    if metrics['support'] > 0:  # 해당 레이블이 데이터에 존재하는 경우만
-                        print(f"\n{label}:")
-                        print(f"  Precision: {metrics['precision']:.4f}")
-                        print(f"  Recall: {metrics['recall']:.4f}")
-                        print(f"  F1-score: {metrics['f1']:.4f}")
-                        print(f"  Support: {metrics['support']}")
-
+            
                 # 처리 시간 출력
                 current_times = timer.get_current_times()
                 print("\nProcessing times:")
@@ -184,7 +157,7 @@ def main():
                 plt.figure(figsize=(15, 10))
                 plt.imshow(img)
                 plt.axis('off')
-                plt.title(f"LayoutLM Detection Results - Macro F1: {results['macro_f1']:.4f}")
+                plt.title(f"LayoutLM Detection Results : {file_name}")
                 plt.show()
                 plt.close()
 
@@ -199,39 +172,6 @@ def main():
     finally:
         print("처리 완료")
 
-    # 전체 평균 성능 출력
-    if overall_results:
-        print("\nOverall Average Performance:")
-        
-        # 모든 레이블에 대한 평균 메트릭 계산
-        all_labels = set()
-        for result in overall_results:
-            all_labels.update(result['label_metrics'].keys())
-        
-        # 레이블별 평균 성능
-        label_averages = {}
-        for label in all_labels:
-            metrics_for_label = []
-            support_for_label = 0
-            for result in overall_results:
-                if label in result['label_metrics'] and result['label_metrics'][label]['support'] > 0:
-                    metrics_for_label.append(result['label_metrics'][label])
-                    support_for_label += result['label_metrics'][label]['support']
-            
-            if metrics_for_label:
-                label_averages[label] = {
-                    'precision': np.mean([m['precision'] for m in metrics_for_label]),
-                    'recall': np.mean([m['recall'] for m in metrics_for_label]),
-                    'f1': np.mean([m['f1'] for m in metrics_for_label]),
-                    'support': support_for_label
-                }
-        
-        # 전체 평균 F1-scores
-        avg_macro_f1 = np.mean([r['macro_f1'] for r in overall_results])
-        avg_weighted_f1 = np.mean([r['weighted_f1'] for r in overall_results])
-        
-        print(f"\nAverage Macro F1-score: {avg_macro_f1:.4f}")
-        print(f"Average Weighted F1-score: {avg_weighted_f1:.4f}")
 
         # 평균 처리 시간 출력
         avg_times = timer.get_average_times()

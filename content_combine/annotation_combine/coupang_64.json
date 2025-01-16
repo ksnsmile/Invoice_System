@@ -1,0 +1,424 @@
+{
+    "file_name": "coupang_64.jpg",
+    "id": 135544281,
+    "original_width": 2007,
+    "original_height": 2808,
+    "objects": [
+        {
+            "x": 98.27999999999994,
+            "y": 99.5419803617637,
+            "width": 173.5,
+            "height": 117.76369593976294,
+            "transcription": "1/1",
+            "label": "others"
+        },
+        {
+            "x": 365.9100000000001,
+            "y": 102.59999999999997,
+            "width": 206.99,
+            "height": 126.32731284676503,
+            "transcription": "쿠팡",
+            "label": "company_name"
+        },
+        {
+            "x": 73.92930930038477,
+            "y": 1658.6453650525343,
+            "width": 292.2172340924547,
+            "height": 164.4352877983244,
+            "transcription": "16E",
+            "label": "others"
+        },
+        {
+            "x": 442.2476874379131,
+            "y": 1667.7030566115973,
+            "width": 307.44,
+            "height": 112.77,
+            "transcription": "10/13",
+            "label": "others"
+        },
+        {
+            "x": 749.6816631391861,
+            "y": 1601.4651903766937,
+            "width": 161.32826465520947,
+            "height": 176.6156794870896,
+            "transcription": "금",
+            "label": "others"
+        },
+        {
+            "x": 941.4492230123595,
+            "y": 1604.510288298885,
+            "width": 331.788317875808,
+            "height": 277.10391091939863,
+            "transcription": "F4",
+            "label": "others"
+        },
+        {
+            "x": 1334.1161313240952,
+            "y": 1543.608329855061,
+            "width": 310.4808112232333,
+            "height": 344.0960652076057,
+            "transcription": "바",
+            "label": "others"
+        },
+        {
+            "x": 1732.870898679424,
+            "y": 1616.6906799876497,
+            "width": 353.0958245283825,
+            "height": 204.02156078681054,
+            "transcription": "오전",
+            "label": "others"
+        },
+        {
+            "x": 2095.098511773196,
+            "y": 1574.0593090769728,
+            "width": 538.7755253579628,
+            "height": 231.42744208653102,
+            "transcription": "2041",
+            "label": "others"
+        },
+        {
+            "x": 570.0898213531984,
+            "y": 95.15671281235879,
+            "width": 511.3801596617954,
+            "height": 137.02940649860392,
+            "transcription": "은 로켓배송",
+            "label": "others"
+        },
+        {
+            "x": 2073.791005120621,
+            "y": 85.34474481611983,
+            "width": 480.9408644438319,
+            "height": 121.80391688764793,
+            "transcription": "coupang",
+            "label": "company_name"
+        },
+        {
+            "x": 86.10999999999999,
+            "y": 301.55000000000007,
+            "width": 136.75370607013954,
+            "height": 59.59,
+            "transcription": "운송장",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 438.7600625715014,
+            "y": 256.73957405012834,
+            "width": 371.36,
+            "height": 60.9,
+            "transcription": "399664544 차",
+            "label": "others"
+        },
+        {
+            "x": 87.60999999999997,
+            "y": 384.68000000000006,
+            "width": 222.33552258951593,
+            "height": 48.72,
+            "transcription": "차 수",
+            "label": "others"
+        },
+        {
+            "x": 86.57000000000002,
+            "y": 458.89,
+            "width": 224.35686582284558,
+            "height": 53.09389596519017,
+            "transcription": "주문번호",
+            "label": "others"
+        },
+        {
+            "x": 85.52057843472889,
+            "y": 535.1821196835797,
+            "width": 225.25,
+            "height": 51.77,
+            "transcription": "집하일자",
+            "label": "others"
+        },
+        {
+            "x": 128.72999999999996,
+            "y": 295.52,
+            "width": 651.4,
+            "height": 266.45211659227425,
+            "transcription": "수원1",
+            "label": "terminal_number"
+        },
+        {
+            "x": 910.6399999999999,
+            "y": 287.36,
+            "width": 76.99392291967723,
+            "height": 59.664282837128134,
+            "transcription": "To",
+            "label": "recipient_key"
+        },
+        {
+            "x": 1087.6868226585825,
+            "y": 301.21,
+            "width": 346.8772461039862,
+            "height": 182.71,
+            "transcription": "931",
+            "label": "terminal_number"
+        },
+        {
+            "x": 1501.53,
+            "y": 295.3739325494742,
+            "width": 359.47,
+            "height": 174.94,
+            "transcription": "C01",
+            "label": "terminal_number"
+        },
+        {
+            "x": 2041.0342742029727,
+            "y": 275.672555479652,
+            "width": 128.56,
+            "height": 51.54,
+            "transcription": "From",
+            "label": "sender_key"
+        },
+        {
+            "x": 2064.659216555232,
+            "y": 226.09594089077035,
+            "width": 343.96403596299405,
+            "height": 234.4725400087222,
+            "transcription": "2P",
+            "label": "terminal_number"
+        },
+        {
+            "x": 912.3992110395793,
+            "y": 552.8057597712072,
+            "width": 467.33,
+            "height": 46.66,
+            "transcription": "배송: 쿠팡로지스틱스서비스",
+            "label": "others"
+        },
+        {
+            "x": 911.7099999999996,
+            "y": 607.74,
+            "width": 485.1574820652993,
+            "height": 42.63,
+            "transcription": "(1544-9898 coupangls.com)",
+            "label": "others"
+        },
+        {
+            "x": 911.0099999999995,
+            "y": 628.8711838797312,
+            "width": 1196.26,
+            "height": 62.15159734274158,
+            "transcription": "* 개인정보 보호를 위하어 인수하신 화물의 운송장을 폐기하어 주시기 바랍니다.",
+            "label": "others"
+        },
+        {
+            "x": 1961.17,
+            "y": 458.36441046444804,
+            "width": 639.23,
+            "height": 63.979913510338875,
+            "transcription": "주문번호 4,1000,1476,6081",
+            "label": "others"
+        },
+        {
+            "x": 1970.2999999999997,
+            "y": 523.5657554655625,
+            "width": 218.63,
+            "height": 59.363641233847915,
+            "transcription": "운송장번호",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 2207.7200000000003,
+            "y": 514.51,
+            "width": 393.28547657096544,
+            "height": 57.35,
+            "transcription": "10,2536,1911,2041",
+            "label": "tracking_number"
+        },
+        {
+            "x": 1976.993237831405,
+            "y": 591.6346101707861,
+            "width": 143.06,
+            "height": 39.59,
+            "transcription": "보내는이",
+            "label": "sender_key"
+        },
+        {
+            "x": 2131.9294148491376,
+            "y": 585.4097884023,
+            "width": 75.5,
+            "height": 46.94,
+            "transcription": "쿠팡",
+            "label": "sender_name"
+        },
+        {
+            "x": 2217.34,
+            "y": 582.3499999999999,
+            "width": 213.08,
+            "height": 47.8852427310529,
+            "transcription": "(1577-7011)",
+            "label": "sender_phone_number"
+        },
+        {
+            "x": 2073.7603728942277,
+            "y": 711.1400000000001,
+            "width": 91.98952298766383,
+            "height": 80.4,
+            "transcription": "뜯는곳",
+            "label": "others"
+        },
+        {
+            "x": 609.6757523078265,
+            "y": 757.090542603585,
+            "width": 88.27,
+            "height": 57.86,
+            "transcription": "To.",
+            "label": "recipient_key"
+        },
+        {
+            "x": 705.31,
+            "y": 697.52,
+            "width": 353.9958314456398,
+            "height": 155.78174708040265,
+            "transcription": "한*구",
+            "label": "recipient_name"
+        },
+        {
+            "x": 1528.94,
+            "y": 738.96,
+            "width": 151.1780789827318,
+            "height": 58.1,
+            "transcription": "From.",
+            "label": "sender_key"
+        },
+        {
+            "x": 1574.5865635460113,
+            "y": 768.8599999999999,
+            "width": 193.85346579720863,
+            "height": 165.4,
+            "transcription": "51",
+            "label": "others"
+        },
+        {
+            "x": 1781.5737710281667,
+            "y": 736.319014319244,
+            "width": 203.94327796035913,
+            "height": 197.93136494242793,
+            "transcription": "번",
+            "label": "others"
+        },
+        {
+            "x": 2029.1,
+            "y": 964.33,
+            "width": 140.531601147885,
+            "height": 52.28,
+            "transcription": "배달표",
+            "label": "others"
+        },
+        {
+            "x": 658.2399999999999,
+            "y": 880.7953287291314,
+            "width": 818.82,
+            "height": 98.75445243472328,
+            "transcription": "문 앞-공동현관 출입번호",
+            "label": "delivery_message"
+        },
+        {
+            "x": 640.1002003545157,
+            "y": 998.5358017828365,
+            "width": 319.61259978862216,
+            "height": 127.89411273203048,
+            "transcription": "수원시",
+            "label": "recipient_address_si"
+        },
+        {
+            "x": 993.1960248828982,
+            "y": 998.5358017828365,
+            "width": 316.568670266826,
+            "height": 121.8039168876481,
+            "transcription": "영통구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 1330.47,
+            "y": 992.4499999999996,
+            "width": 417.47,
+            "height": 107.68282004736524,
+            "transcription": "중부대로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 1785.5383628471423,
+            "y": 994.31,
+            "width": 176.55,
+            "height": 89.62,
+            "transcription": "335",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 1543.2618368816725,
+            "y": 1053.56,
+            "width": 618.3315556397994,
+            "height": 57.8,
+            "transcription": "위 이 인 함 년 월 일",
+            "label": "others"
+        },
+        {
+            "x": 1544.4702847436208,
+            "y": 1155.4370634593513,
+            "width": 124.8,
+            "height": 48.72,
+            "transcription": "인수자",
+            "label": "others"
+        },
+        {
+            "x": 1690.26,
+            "y": 1132.52,
+            "width": 371.36,
+            "height": 92.75419254510028,
+            "transcription": "coupang",
+            "label": "company_name"
+        },
+        {
+            "x": 2075.6800000000003,
+            "y": 1144.88,
+            "width": 86.98231503792078,
+            "height": 54.81,
+            "transcription": "서명",
+            "label": "others"
+        },
+        {
+            "x": 1017.7600000000003,
+            "y": 1229.8199999999997,
+            "width": 429.5,
+            "height": 153.03353816052152,
+            "transcription": "(원천동",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 1473.85,
+            "y": 1217.14,
+            "width": 523.4096371539478,
+            "height": 137.03,
+            "transcription": "96-1번지,",
+            "label": "recipient_address_jibeon"
+        },
+        {
+            "x": 1621.8599999999997,
+            "y": 1224.87,
+            "width": 550.8576583964361,
+            "height": 60.34,
+            "transcription": "계 웃, )",
+            "label": "others"
+        },
+        {
+            "x": 630.97,
+            "y": 1391.7758287806955,
+            "width": 675.75,
+            "height": 160.955836068024,
+            "transcription": "삼부리치안)",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 261.99,
+            "y": 308.28,
+            "width": 43.67,
+            "height": 49.552310776893066,
+            "transcription": "호",
+            "label": "tracking_number_key"
+        }
+    ]
+}

@@ -38,19 +38,7 @@ class Timer:
         return {stage: times[-1] if times else 0 
                 for stage, times in self.times.items()}
 
-def load_ground_truth(annotation_dir, image_filename):
-    base_filename = os.path.splitext(image_filename)[0]
-    json_path = os.path.join(annotation_dir, base_filename + '.json')
-    
-    if os.path.exists(json_path):
-        with open(json_path, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            return {
-                'width': data['original_width'],
-                'height': data['original_height'],
-                'objects': data['objects']
-            }
-    return None
+
 
 def convert_bbox_format(x, y, width, height, original_width, original_height):
     """실제 픽셀 좌표를 바운딩 박스 형식으로 변환"""
@@ -106,148 +94,6 @@ def calculate_iou(box1, box2):
     
     return intersection / union if union > 0 else 0.0
 
-def evaluate_text_similarity(pred_text, gt_text):
-    """텍스트 유사도 계산"""
-    pred_text = pred_text.strip().lower()
-    gt_text = gt_text.strip().lower()
-    
-    if pred_text == gt_text:
-        return 1.0
-        
-    return SequenceMatcher(None, pred_text, gt_text).ratio()
-
-def evaluate_detection_and_text_performance(ocr_results, layoutlm_results, ground_truth, image):
-    """OCR 및 LayoutLM 결과 평가"""
-    original_width, original_height = image.size
-    
-    # Ground Truth 객체 추출
-    gt_objects = []
-    for obj in ground_truth['objects']:
-        bbox = [
-            int(obj['x']),
-            int(obj['y']),
-            int(obj['x'] + obj['width']),
-            int(obj['y'] + obj['height'])
-        ]
-        gt_objects.append({
-            'bbox': bbox,
-            'text': obj['transcription'],
-            'label': obj['label']
-        })
-    
-    print("\nGround Truth Data:")
-    for i, obj in enumerate(gt_objects[:5]):  # 처음 5개만 출력
-        print(f"GT {i+1}: Label={obj['label']}, Text='{obj['text']}', Bbox={obj['bbox']}")
-    
-    print("\nLayoutLM Predictions:") 
-    for i, pred in enumerate(layoutlm_results[:5]):  # 처음 5개만 출력
-        print(f"Pred {i+1}: Label={pred['label']}, Bbox={pred['bbox']}")
-    
-    # IoU 임계값 설정
-    IOU_THRESHOLD = 0.5
-    
-    def calculate_iou(box1, box2):
-        """두 바운딩 박스 간의 IoU 계산"""
-        x1 = max(box1[0], box2[0])
-        y1 = max(box1[1], box2[1])
-        x2 = min(box1[2], box2[2])
-        y2 = min(box1[3], box2[3])
-        
-        if x2 < x1 or y2 < y1:
-            return 0.0
-        
-        intersection = (x2 - x1) * (y2 - y1)
-        box1_area = (box1[2] - box1[0]) * (box1[3] - box1[1])
-        box2_area = (box2[2] - box2[0]) * (box2[3] - box2[1])
-        union = box1_area + box2_area - intersection
-        
-        return intersection / union if union > 0 else 0.0
-    
-    # 각 레이블별 메트릭 계산
-    label_metrics = {}
-    for gt_obj in gt_objects:
-        label = gt_obj['label']
-        if label not in label_metrics:
-            label_metrics[label] = {'tp': 0, 'fp': 0, 'fn': 0, 'support': 0}
-        label_metrics[label]['support'] += 1
-    
-    # 매칭 결과 저장
-    matched_gt = set()
-    matched_pred = set()
-    
-    # 각 예측에 대해 최적의 GT 매칭 찾기
-    for pred_idx, pred_obj in enumerate(layoutlm_results):
-        best_iou = 0
-        best_gt_idx = None
-        
-        for gt_idx, gt_obj in enumerate(gt_objects):
-            if gt_idx in matched_gt:
-                continue
-            
-            iou = calculate_iou(pred_obj['bbox'], gt_obj['bbox'])
-            if iou > best_iou and iou >= IOU_THRESHOLD:
-                best_iou = iou
-                best_gt_idx = gt_idx
-        
-        if best_gt_idx is not None:
-            gt_obj = gt_objects[best_gt_idx]
-            matched_gt.add(best_gt_idx)
-            matched_pred.add(pred_idx)
-            
-            # 매칭된 결과 출력
-            print(f"\nMatched Pair {len(matched_gt)}:")
-            print(f"GT: Label={gt_obj['label']}, Text='{gt_obj['text']}', Bbox={gt_obj['bbox']}")
-            print(f"Pred: Label={pred_obj['label']}, Bbox={pred_obj['bbox']}")
-            print(f"IoU: {best_iou:.4f}")
-            
-            # True Positive 처리
-            if pred_obj['label'] == gt_obj['label']:
-                label_metrics[gt_obj['label']]['tp'] += 1
-            else:
-                # 잘못된 레이블 예측
-                label_metrics[gt_obj['label']]['fn'] += 1
-                if pred_obj['label'] in label_metrics:
-                    label_metrics[pred_obj['label']]['fp'] += 1
-    
-    # False Negatives 처리
-    for gt_idx, gt_obj in enumerate(gt_objects):
-        if gt_idx not in matched_gt:
-            label_metrics[gt_obj['label']]['fn'] += 1
-            print(f"\nUnmatched GT: Label={gt_obj['label']}, Text='{gt_obj['text']}', Bbox={gt_obj['bbox']}")
-    
-    # False Positives 처리
-    for pred_idx, pred_obj in enumerate(layoutlm_results):
-        if pred_idx not in matched_pred:
-            if pred_obj['label'] in label_metrics:
-                label_metrics[pred_obj['label']]['fp'] += 1
-            print(f"\nUnmatched Pred: Label={pred_obj['label']}, Bbox={pred_obj['bbox']}")
-    
-    # 레이블별 메트릭 계산
-    for label, metrics in label_metrics.items():
-        tp = metrics['tp']
-        fp = metrics['fp']
-        fn = metrics['fn']
-        
-        precision = tp / (tp + fp) if (tp + fp) > 0 else 0
-        recall = tp / (tp + fn) if (tp + fn) > 0 else 0
-        f1 = 2 * (precision * recall) / (precision + recall) if (precision + recall) > 0 else 0
-        
-        metrics.update({
-            'precision': precision,
-            'recall': recall,
-            'f1': f1
-        })
-    
-    # 매크로 및 가중 F1 계산
-    macro_f1 = np.mean([m['f1'] for m in label_metrics.values()])
-    total_support = sum(m['support'] for m in label_metrics.values())
-    weighted_f1 = np.sum([m['f1'] * m['support'] for m in label_metrics.values()]) / total_support if total_support > 0 else 0
-
-    return {
-        'label_metrics': label_metrics,
-        'macro_f1': macro_f1,
-        'weighted_f1': weighted_f1
-    }
 
 def visualize_comparison(image, easyocr_results, layoutlm_results, font_path):
     """EasyOCR 텍스트와 LayoutLM 레이블을 함께 시각화"""
@@ -318,7 +164,7 @@ def is_image_file(filename):
     image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp'}
     return os.path.splitext(filename.lower())[1] in image_extensions
 
-def process_image_for_layoutlm(image_path, annotation_path, tokenizer, device, ocr_results):
+def process_image_for_layoutlm(image_path, tokenizer, device, ocr_results):
     # 이미지 로드 및 전처리
     image = Image.open(image_path).convert("RGB")
     original_size = image.size
@@ -334,6 +180,7 @@ def process_image_for_layoutlm(image_path, annotation_path, tokenizer, device, o
         
         # 빈 텍스트는 건너뛰기
         if not text.strip():
+            
             continue
             
         words.append(text)

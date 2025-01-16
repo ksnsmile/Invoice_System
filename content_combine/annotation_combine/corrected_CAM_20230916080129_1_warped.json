@@ -1,0 +1,1027 @@
+{
+    "ocr": "/data/upload/19/44ff6729-corrected_CAM_20230916080129_1_warped.jpg",
+    "id": 364,
+    "bbox": [
+        {
+            "x": 6.256860592755214,
+            "y": 1.4550888446761798,
+            "width": 8.891328210757411,
+            "height": 8.069129047749726,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 22.17343578485181,
+            "y": 1.4550888446761798,
+            "width": 29.198682766191,
+            "height": 9.259656284302963,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 71.2403951701427,
+            "y": 5.555793770581778,
+            "width": 18.660812294182207,
+            "height": 7.010882615257958,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 71.35016465422612,
+            "y": 12.831237993962677,
+            "width": 12.62349066959385,
+            "height": 5.9526361827661916,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 4.061470911086718,
+            "y": 10.847025933040614,
+            "width": 11.525795828759605,
+            "height": 5.423512966520308,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 16.575192096597146,
+            "y": 10.979306737102085,
+            "width": 11.635565312843028,
+            "height": 5.5557937705817775,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 84.19319429198683,
+            "y": 12.831237993962677,
+            "width": 13.391877058177826,
+            "height": 5.555793770581779,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 37.54116355653128,
+            "y": 18.122470156421514,
+            "width": 6.69593852908892,
+            "height": 6.349478594950604,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 6.256860592755214,
+            "y": 64.5530323819978,
+            "width": 5.817782656421515,
+            "height": 4.4975473380900155,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 2.5246981339187706,
+            "y": 56.61618413830954,
+            "width": 30.076838638858394,
+            "height": 3.0424584934138394,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.2074643249176729,
+            "y": 66.93408685510428,
+            "width": 3.841931942919868,
+            "height": 3.4393009055982446,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 32.38199780461032,
+            "y": 64.28847077387486,
+            "width": 6.586169045005491,
+            "height": 5.026670554335894,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 45.88364434687157,
+            "y": 68.12461409165752,
+            "width": 6.586169045005491,
+            "height": 3.7038625137211767,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 53.67727771679473,
+            "y": 66.93408685510428,
+            "width": 10.318331503841941,
+            "height": 4.100704925905589,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 59.055982436882545,
+            "y": 62.17197790889133,
+            "width": 9.769484083424814,
+            "height": 4.365266534028528,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 70.47200878155873,
+            "y": 68.25689489571899,
+            "width": 5.927552140504943,
+            "height": 3.4393009055982446,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 76.83863885839737,
+            "y": 67.19864846322722,
+            "width": 15.587266739846314,
+            "height": 4.3652665340285495,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 78.92425905598243,
+            "y": 26.19159920417124,
+            "width": 15.148188803512625,
+            "height": 3.8361433177826534,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 87.04720087815588,
+            "y": 21.694051866081228,
+            "width": 11.196487376509324,
+            "height": 3.4393009055982446,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 77.27771679473106,
+            "y": 91.27375480241491,
+            "width": 18.551042810098792,
+            "height": 5.820355378704733,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.756311745334797,
+            "y": 27.911249656970362,
+            "width": 2.744237102085621,
+            "height": 19.57755900109769,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.26893523600439,
+            "y": 31.218269758507134,
+            "width": 10.428100987925356,
+            "height": 5.423512966520306,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.378704720087816,
+            "y": 36.64178272502744,
+            "width": 7.025246981339187,
+            "height": 4.232985729967069,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 13.062568605927552,
+            "y": 36.77406352908891,
+            "width": 9.659714599341381,
+            "height": 4.6298281421514815,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 24.039517014270036,
+            "y": 36.24494031284303,
+            "width": 9.879253567508233,
+            "height": 5.158951358397367,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 34.46761800219539,
+            "y": 36.3772211169045,
+            "width": 10.757409440175628,
+            "height": 4.894389750274421,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 46.10318331503842,
+            "y": 36.3772211169045,
+            "width": 12.403951701427005,
+            "height": 5.29123216245884,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 58.94621295279913,
+            "y": 36.24494031284303,
+            "width": 5.817782656421514,
+            "height": 5.026670554335894,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 41.05378704720088,
+            "y": 24.207387143249175,
+            "width": 7.025246981339193,
+            "height": 5.688074574643249,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 7.4643249176728865,
+            "y": 24.86879116355653,
+            "width": 13.830954994511526,
+            "height": 5.158951358397363,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 22.941822173435785,
+            "y": 24.075106339187705,
+            "width": 16.684961580680575,
+            "height": 6.481759399012073,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 65.75192096597145,
+            "y": 35.848097900658615,
+            "width": 19.97804610318333,
+            "height": 5.158951358397367,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.378704720087816,
+            "y": 40.74248765093304,
+            "width": 6.037321624588365,
+            "height": 4.365266534028535,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.2074643249176729,
+            "y": 49.07617830680571,
+            "width": 3.6223929747530184,
+            "height": 5.9526361827661916,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.378704720087817,
+            "y": 48.28249348243688,
+            "width": 16.794731064763994,
+            "height": 4.629828142151474,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 22.612513721185508,
+            "y": 47.885651070252464,
+            "width": 17.124039517014268,
+            "height": 5.29123216245884,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.598243688254665,
+            "y": 71.56391499725576,
+            "width": 21.405049396267835,
+            "height": 5.15895135839736,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 0.9879253567508233,
+            "y": 92.99340525521404,
+            "width": 4.171240395170143,
+            "height": 4.497547338090001,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.9758507135016465,
+            "y": 60.58460826015367,
+            "width": 9.879253567508233,
+            "height": 3.8361433177826565,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 12.294182217343579,
+            "y": 59.79092343578485,
+            "width": 28.10098792535675,
+            "height": 3.96842412184413,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 3.293084522502744,
+            "y": 18.91615498079034,
+            "width": 28.210757409440177,
+            "height": 4.762108946212955,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 71.89901207464325,
+            "y": 62.3042587129528,
+            "width": 21.624588364434686,
+            "height": 3.96842412184413,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 23.929747530186603,
+            "y": 66.40496363885839,
+            "width": 4.171240395170148,
+            "height": 4.100704925905603,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 78.15587266739847,
+            "y": 21.032647845773873,
+            "width": 8.452250274423704,
+            "height": 3.7038625137211874,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 34.577387486278816,
+            "y": 31.74739297475302,
+            "width": 28.869374313940725,
+            "height": 4.232985729967062,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 66.73984632272229,
+            "y": 31.87967377881449,
+            "width": 28.869374313940725,
+            "height": 4.365266534028539,
+            "rotation": 0,
+            "original_width": 617,
+            "original_height": 512
+        }
+    ],
+    "label": [
+        {
+            "x": 6.256860592755214,
+            "y": 1.4550888446761798,
+            "width": 8.891328210757411,
+            "height": 8.069129047749726,
+            "rotation": 0,
+            "labels": [
+                "terminal_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 22.17343578485181,
+            "y": 1.4550888446761798,
+            "width": 29.198682766191,
+            "height": 9.259656284302963,
+            "rotation": 0,
+            "labels": [
+                "terminal_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 71.2403951701427,
+            "y": 5.555793770581778,
+            "width": 18.660812294182207,
+            "height": 7.010882615257958,
+            "rotation": 0,
+            "labels": [
+                "terminal_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 71.35016465422612,
+            "y": 12.831237993962677,
+            "width": 12.62349066959385,
+            "height": 5.9526361827661916,
+            "rotation": 0,
+            "labels": [
+                "terminal_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 4.061470911086718,
+            "y": 10.847025933040614,
+            "width": 11.525795828759605,
+            "height": 5.423512966520308,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 16.575192096597146,
+            "y": 10.979306737102085,
+            "width": 11.635565312843028,
+            "height": 5.5557937705817775,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 84.19319429198683,
+            "y": 12.831237993962677,
+            "width": 13.391877058177826,
+            "height": 5.555793770581779,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 37.54116355653128,
+            "y": 18.122470156421514,
+            "width": 6.69593852908892,
+            "height": 6.349478594950604,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 6.256860592755214,
+            "y": 64.5530323819978,
+            "width": 5.817782656421515,
+            "height": 4.4975473380900155,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 2.5246981339187706,
+            "y": 56.61618413830954,
+            "width": 30.076838638858394,
+            "height": 3.0424584934138394,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.2074643249176729,
+            "y": 66.93408685510428,
+            "width": 3.841931942919868,
+            "height": 3.4393009055982446,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 32.38199780461032,
+            "y": 64.28847077387486,
+            "width": 6.586169045005491,
+            "height": 5.026670554335894,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 45.88364434687157,
+            "y": 68.12461409165752,
+            "width": 6.586169045005491,
+            "height": 3.7038625137211767,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 53.67727771679473,
+            "y": 66.93408685510428,
+            "width": 10.318331503841941,
+            "height": 4.100704925905589,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 59.055982436882545,
+            "y": 62.17197790889133,
+            "width": 9.769484083424814,
+            "height": 4.365266534028528,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 70.47200878155873,
+            "y": 68.25689489571899,
+            "width": 5.927552140504943,
+            "height": 3.4393009055982446,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 76.83863885839737,
+            "y": 67.19864846322722,
+            "width": 15.587266739846314,
+            "height": 4.3652665340285495,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 78.92425905598243,
+            "y": 26.19159920417124,
+            "width": 15.148188803512625,
+            "height": 3.8361433177826534,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 87.04720087815588,
+            "y": 21.694051866081228,
+            "width": 11.196487376509324,
+            "height": 3.4393009055982446,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 77.27771679473106,
+            "y": 91.27375480241491,
+            "width": 18.551042810098792,
+            "height": 5.820355378704733,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.756311745334797,
+            "y": 27.911249656970362,
+            "width": 2.744237102085621,
+            "height": 19.57755900109769,
+            "rotation": 0,
+            "labels": [
+                "recipient_key"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.26893523600439,
+            "y": 31.218269758507134,
+            "width": 10.428100987925356,
+            "height": 5.423512966520306,
+            "rotation": 0,
+            "labels": [
+                "recipient_name"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.378704720087816,
+            "y": 36.64178272502744,
+            "width": 7.025246981339187,
+            "height": 4.232985729967069,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_si"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 13.062568605927552,
+            "y": 36.77406352908891,
+            "width": 9.659714599341381,
+            "height": 4.6298281421514815,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_gu"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 24.039517014270036,
+            "y": 36.24494031284303,
+            "width": 9.879253567508233,
+            "height": 5.158951358397367,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_dong"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 34.46761800219539,
+            "y": 36.3772211169045,
+            "width": 10.757409440175628,
+            "height": 4.894389750274421,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_jibeon"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 46.10318331503842,
+            "y": 36.3772211169045,
+            "width": 12.403951701427005,
+            "height": 5.29123216245884,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_dong"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 58.94621295279913,
+            "y": 36.24494031284303,
+            "width": 5.817782656421514,
+            "height": 5.026670554335894,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_detail"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 41.05378704720088,
+            "y": 24.207387143249175,
+            "width": 7.025246981339193,
+            "height": 5.688074574643249,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_detail"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 7.4643249176728865,
+            "y": 24.86879116355653,
+            "width": 13.830954994511526,
+            "height": 5.158951358397363,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_jibeon"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 22.941822173435785,
+            "y": 24.075106339187705,
+            "width": 16.684961580680575,
+            "height": 6.481759399012073,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_dong"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 65.75192096597145,
+            "y": 35.848097900658615,
+            "width": 19.97804610318333,
+            "height": 5.158951358397367,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_gil_name"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.378704720087816,
+            "y": 40.74248765093304,
+            "width": 6.037321624588365,
+            "height": 4.365266534028535,
+            "rotation": 0,
+            "labels": [
+                "recipient_address_ro_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.2074643249176729,
+            "y": 49.07617830680571,
+            "width": 3.6223929747530184,
+            "height": 5.9526361827661916,
+            "rotation": 0,
+            "labels": [
+                "sender_key"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.378704720087817,
+            "y": 48.28249348243688,
+            "width": 16.794731064763994,
+            "height": 4.629828142151474,
+            "rotation": 0,
+            "labels": [
+                "sender_name"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 22.612513721185508,
+            "y": 47.885651070252464,
+            "width": 17.124039517014268,
+            "height": 5.29123216245884,
+            "rotation": 0,
+            "labels": [
+                "sender_phone_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 5.598243688254665,
+            "y": 71.56391499725576,
+            "width": 21.405049396267835,
+            "height": 5.15895135839736,
+            "rotation": 0,
+            "labels": [
+                "product_name"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 0.9879253567508233,
+            "y": 92.99340525521404,
+            "width": 4.171240395170143,
+            "height": 4.497547338090001,
+            "rotation": 0,
+            "labels": [
+                "delivery_message_key"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 1.9758507135016465,
+            "y": 60.58460826015367,
+            "width": 9.879253567508233,
+            "height": 3.8361433177826565,
+            "rotation": 0,
+            "labels": [
+                "tracking_number_key"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 12.294182217343579,
+            "y": 59.79092343578485,
+            "width": 28.10098792535675,
+            "height": 3.96842412184413,
+            "rotation": 0,
+            "labels": [
+                "tracking_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 3.293084522502744,
+            "y": 18.91615498079034,
+            "width": 28.210757409440177,
+            "height": 4.762108946212955,
+            "rotation": 0,
+            "labels": [
+                "tracking_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 71.89901207464325,
+            "y": 62.3042587129528,
+            "width": 21.624588364434686,
+            "height": 3.96842412184413,
+            "rotation": 0,
+            "labels": [
+                "tracking_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 23.929747530186603,
+            "y": 66.40496363885839,
+            "width": 4.171240395170148,
+            "height": 4.100704925905603,
+            "rotation": 0,
+            "labels": [
+                "others"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 78.15587266739847,
+            "y": 21.032647845773873,
+            "width": 8.452250274423704,
+            "height": 3.7038625137211874,
+            "rotation": 0,
+            "labels": [
+                "company_name"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 34.577387486278816,
+            "y": 31.74739297475302,
+            "width": 28.869374313940725,
+            "height": 4.232985729967062,
+            "rotation": 0,
+            "labels": [
+                "recipient_phone_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        },
+        {
+            "x": 66.73984632272229,
+            "y": 31.87967377881449,
+            "width": 28.869374313940725,
+            "height": 4.365266534028539,
+            "rotation": 0,
+            "labels": [
+                "recipient_phone_number"
+            ],
+            "original_width": 617,
+            "original_height": 512
+        }
+    ],
+    "transcription": [
+        "F-",
+        "A6-별15",
+        "행당(대)",
+        "별15-",
+        "성동구",
+        "사근동",
+        "전종인",
+        "(신)",
+        "(신)",
+        "20 년 월 일 (인)",
+        "운임",
+        "1-1",
+        "집하점",
+        "대전지점",
+        "일반출고",
+        "집하일",
+        "2023/09/14",
+        "2023/09/14",
+        "1588-2121",
+        "[303/351]",
+        "받는분",
+        "정선영",
+        "서울",
+        "성동구",
+        "사근동",
+        "186-8",
+        "(사근동)",
+        "1층",
+        "1층",
+        "186-8",
+        "(사근동)",
+        "(사근동8나길",
+        "18)",
+        "보내는분",
+        "바네스데코 /",
+        "1599-4960",
+        "XYC200427-1",
+        "비고",
+        "운송장번호",
+        "2443-8298-6536",
+        "2443-8298-6536",
+        "2443-8298-6536",
+        "수량",
+        "롯데택배",
+        "0503-5781-3979",
+        "0503-5781-3979"
+    ],
+    "annotator": 4,
+    "annotation_id": 341,
+    "created_at": "2024-07-26T00:39:49.677541Z",
+    "updated_at": "2024-07-26T00:57:20.053958Z",
+    "lead_time": 633.4159999999999
+}

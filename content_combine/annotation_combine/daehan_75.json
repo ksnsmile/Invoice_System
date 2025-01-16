@@ -1,0 +1,848 @@
+{
+    "file_name": "daehan_75.jpg",
+    "id": 134467090,
+    "original_width": 2573,
+    "original_height": 1318,
+    "objects": [
+        {
+            "x": 51.64,
+            "y": 56.23000000000002,
+            "width": 136.0219499839242,
+            "height": 32.4717215630508,
+            "transcription": "운송장번호",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 225.5200000000001,
+            "y": 36.25,
+            "width": 495.3171031829174,
+            "height": 53.23590832006356,
+            "transcription": "6807-1953-7910",
+            "label": "tracking_number"
+        },
+        {
+            "x": 851.6100000000001,
+            "y": 59.410000000000025,
+            "width": 110.392804310118,
+            "height": 34.48071760289963,
+            "transcription": "접수일자",
+            "label": "others"
+        },
+        {
+            "x": 1083.5099999999998,
+            "y": 53.93000000000001,
+            "width": 213.1203007832215,
+            "height": 35.48272581811166,
+            "transcription": "2023.09.21",
+            "label": "others"
+        },
+        {
+            "x": 492.0599999999994,
+            "y": 158.83999999999997,
+            "width": 77.67959702146666,
+            "height": 118.45326250199427,
+            "transcription": "1",
+            "label": "terminal_number"
+        },
+        {
+            "x": 585.55,
+            "y": 117.74999999999999,
+            "width": 434.20210071704406,
+            "height": 198.732423000689,
+            "transcription": "M81",
+            "label": "terminal_number"
+        },
+        {
+            "x": 1050.7400000000002,
+            "y": 195.9299999999998,
+            "width": 222.45232845761313,
+            "height": 126.18243366404757,
+            "transcription": "- 1f",
+            "label": "terminal_number"
+        },
+        {
+            "x": 45.03999999999999,
+            "y": 345.7099999999999,
+            "width": 22.694353429536378,
+            "height": 36.50100924273703,
+            "transcription": "1",
+            "label": "others"
+        },
+        {
+            "x": 77.56000000000014,
+            "y": 339.95000000000005,
+            "width": 219.9984002928293,
+            "height": 44.627576538725165,
+            "transcription": "증류수 x 6개",
+            "label": "product_name"
+        },
+        {
+            "x": 1240.6399999999999,
+            "y": 368.87,
+            "width": 21.84339231477072,
+            "height": 32.21856336085131,
+            "transcription": "1",
+            "label": "others"
+        },
+        {
+            "x": 357.5,
+            "y": 475.2499999999997,
+            "width": 129.15846663163586,
+            "height": 103.04715544997187,
+            "transcription": "CJ",
+            "label": "company_name"
+        },
+        {
+            "x": 687.1100000000001,
+            "y": 472.03999999999996,
+            "width": 343.4952409448966,
+            "height": 95.75177055661858,
+            "transcription": "대한통운",
+            "label": "company_name"
+        },
+        {
+            "x": 122.76999999999998,
+            "y": 567.95,
+            "width": 1159.6387635160806,
+            "height": 408.27,
+            "transcription": "11.이재영",
+            "label": "handwriting"
+        },
+        {
+            "x": 1130.8399999999997,
+            "y": 830.1099999999999,
+            "width": 39.22779036637962,
+            "height": 18.04928825611223,
+            "transcription": "2020",
+            "label": "others"
+        },
+        {
+            "x": 1105.87,
+            "y": 850.1200000000001,
+            "width": 61.0781754050145,
+            "height": 27.048158978370385,
+            "transcription": "Most",
+            "label": "others"
+        },
+        {
+            "x": 1135.19,
+            "y": 881,
+            "width": 48.66096807629724,
+            "height": 21.997682073406253,
+            "transcription": "Com",
+            "label": "others"
+        },
+        {
+            "x": 1244.5099999999998,
+            "y": 852.06,
+            "width": 32.7,
+            "height": 25.627246669239312,
+            "transcription": "ed",
+            "label": "others"
+        },
+        {
+            "x": 600.25,
+            "y": 939.1299999999999,
+            "width": 398.77118993011953,
+            "height": 47.42888982916339,
+            "transcription": "고객님(받는분)의 소중한 상품을",
+            "label": "others"
+        },
+        {
+            "x": 601.1199999999999,
+            "y": 982.57,
+            "width": 321.12106011148836,
+            "height": 44.99,
+            "transcription": "안전하게 배송하겠습니다.",
+            "label": "others"
+        },
+        {
+            "x": 603.76,
+            "y": 1030.6,
+            "width": 631.7187554709441,
+            "height": 54.76,
+            "transcription": "개인정보가 유출 될 수 있으니 운송장은 폐기 바랍니다.",
+            "label": "others"
+        },
+        {
+            "x": 954.0699999999999,
+            "y": 989.69,
+            "width": 192.91439005584084,
+            "height": 34.01,
+            "transcription": "8년 연속 종합물",
+            "label": "others"
+        },
+        {
+            "x": 1270.52,
+            "y": 991.5289333839996,
+            "width": 29.54,
+            "height": 32.66111144986026,
+            "transcription": "등",
+            "label": "others"
+        },
+        {
+            "x": 1139.65,
+            "y": 993.0900000000001,
+            "width": 134.94365785223437,
+            "height": 39.3847459319605,
+            "transcription": "총수량:1",
+            "label": "others"
+        },
+        {
+            "x": 614.4199999999998,
+            "y": 1092.6399999999999,
+            "width": 168.572187099804,
+            "height": 64.91661792911285,
+            "transcription": "뉴삼동",
+            "label": "others"
+        },
+        {
+            "x": 1040.5499999999997,
+            "y": 1175.8900000000003,
+            "width": 179.37780524214196,
+            "height": 82.27600911460969,
+            "transcription": "F-14",
+            "label": "others"
+        },
+        {
+            "x": 47.43999999999998,
+            "y": 1182.5,
+            "width": 186.39993923339847,
+            "height": 48.71,
+            "transcription": "재출력:2",
+            "label": "others"
+        },
+        {
+            "x": 236.3500000000001,
+            "y": 1187.5300000000002,
+            "width": 59.05,
+            "height": 30.707751853571317,
+            "transcription": "위한",
+            "label": "others"
+        },
+        {
+            "x": 114.2,
+            "y": 1217.75,
+            "width": 186.29882633531852,
+            "height": 32,
+            "transcription": "단 하나의 배송,",
+            "label": "others"
+        },
+        {
+            "x": 237.78000000000014,
+            "y": 1247.02,
+            "width": 56.16,
+            "height": 31.194722943478478,
+            "transcription": "오네",
+            "label": "others"
+        },
+        {
+            "x": 101.25156887692212,
+            "y": 1259.86,
+            "width": 150.1277824320776,
+            "height": 46.79,
+            "transcription": "46/173",
+            "label": "others"
+        },
+        {
+            "x": 292.66999999999996,
+            "y": 1250.02,
+            "width": 110.56585353743284,
+            "height": 53.117114596388944,
+            "transcription": "(6-2)",
+            "label": "others"
+        },
+        {
+            "x": 476.99000000000007,
+            "y": 1172.37,
+            "width": 96.72929590243238,
+            "height": 41.15658022177655,
+            "transcription": "1588",
+            "label": "others"
+        },
+        {
+            "x": 520.01,
+            "y": 1215.92,
+            "width": 17.1654757245383,
+            "height": 10.520150127476835,
+            "transcription": "-",
+            "label": "others"
+        },
+        {
+            "x": 477.73999999999967,
+            "y": 1230.81,
+            "width": 98.6556720568038,
+            "height": 43.01859745160469,
+            "transcription": "1255",
+            "label": "others"
+        },
+        {
+            "x": 1363.6,
+            "y": 71.96000000000001,
+            "width": 134.87444671254917,
+            "height": 32.71190889283522,
+            "transcription": "운송장번호",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 1529.0783358249919,
+            "y": 58.72,
+            "width": 481.5728801280327,
+            "height": 64.14,
+            "transcription": "6807-1953-7910",
+            "label": "tracking_number"
+        },
+        {
+            "x": 2183.37,
+            "y": 96.08000000000001,
+            "width": 103.50053073131807,
+            "height": 37.099929578102625,
+            "transcription": "접수일자",
+            "label": "others"
+        },
+        {
+            "x": 2370.8,
+            "y": 96.29999999999998,
+            "width": 189.32877636916493,
+            "height": 43.05424078386675,
+            "transcription": "2023.09.21",
+            "label": "others"
+        },
+        {
+            "x": 1343.8599999999997,
+            "y": 150.71000000000004,
+            "width": 47.157514464776064,
+            "height": 131.89301207758547,
+            "transcription": "받는분",
+            "label": "recipient_key"
+        },
+        {
+            "x": 1383.04,
+            "y": 118.25000000000003,
+            "width": 201.19581396957383,
+            "height": 106.80457439781566,
+            "transcription": "월암",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 1608.9299999999998,
+            "y": 131.84000000000003,
+            "width": 292.5427246113629,
+            "height": 95.88,
+            "transcription": "360-1",
+            "label": "recipient_address_jibeon"
+        },
+        {
+            "x": 1928.4600000000005,
+            "y": 134.36,
+            "width": 388.62054952205364,
+            "height": 121.91,
+            "transcription": "기술연구",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1398.4099999999999,
+            "y": 234.33000000000013,
+            "width": 106.28158163971639,
+            "height": 48.263578582977836,
+            "transcription": "이재*",
+            "label": "recipient_name"
+        },
+        {
+            "x": 1795.13,
+            "y": 246.45000000000033,
+            "width": 310.5242230089829,
+            "height": 47.81554694309132,
+            "transcription": "010-7106-****",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 2258.5445231030744,
+            "y": 269.8,
+            "width": 292.016929558417,
+            "height": 47.01,
+            "transcription": "010-7106-****",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 1394.98,
+            "y": 298.78999999999996,
+            "width": 138.66983580059272,
+            "height": 50.024483784649085,
+            "transcription": "경기도",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 1546.79,
+            "y": 301.13,
+            "width": 130.41197160663106,
+            "height": 53.51727837059563,
+            "transcription": "의왕시",
+            "label": "recipient_address_si"
+        },
+        {
+            "x": 1691.3399999999997,
+            "y": 304.26,
+            "width": 270.5489346668908,
+            "height": 55.96953509926027,
+            "transcription": "철도박물관로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 1974.83,
+            "y": 318.72,
+            "width": 83.97771591385639,
+            "height": 44.51383516014403,
+            "transcription": "176",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 2064.5199999999995,
+            "y": 317.66999999999996,
+            "width": 159.0013988802245,
+            "height": 62.13071894744259,
+            "transcription": "(월암동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 2235.8899999999994,
+            "y": 327.06999999999994,
+            "width": 287.4022435899918,
+            "height": 61.08345202206578,
+            "transcription": "한국철도기술연",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1392.7698698401023,
+            "y": 348.35,
+            "width": 110.75017301007543,
+            "height": 55.58259636324323,
+            "transcription": "구원)",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1513.92,
+            "y": 348.5400000000001,
+            "width": 401.7466976574463,
+            "height": 61.74870919225274,
+            "transcription": "한국철도기술연구원",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1926.03,
+            "y": 365.85,
+            "width": 301.79361818536444,
+            "height": 57.736872686357245,
+            "transcription": "교통환경연구팀",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 2239.25,
+            "y": 379.49,
+            "width": 96.22899290866744,
+            "height": 49.411305676328205,
+            "transcription": "11동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 2343.7199999999993,
+            "y": 384.5799999999999,
+            "width": 120.45541693498653,
+            "height": 46.28648322953554,
+            "transcription": "406호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 2473.6800000000003,
+            "y": 387.65999999999997,
+            "width": 58.248239485236155,
+            "height": 52.65903272497589,
+            "transcription": "[월",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 1393.9144737513452,
+            "y": 398.7900000000001,
+            "width": 91.4920537703655,
+            "height": 51.68198558994953,
+            "transcription": "암동",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 1495.31,
+            "y": 404.74,
+            "width": 144.20044293861426,
+            "height": 53.70900210891487,
+            "transcription": "360-1]",
+            "label": "recipient_address_jibeon"
+        },
+        {
+            "x": 1790.790000000001,
+            "y": 415.30999999999995,
+            "width": 767.4845411096022,
+            "height": 65.69515636915604,
+            "transcription": "개인정보 유출방지를 위하여 성명, 전화번호, 주소를 제거바랍니다.",
+            "label": "others"
+        },
+        {
+            "x": 1329.5500000000002,
+            "y": 452.42999999999995,
+            "width": 64.95993280057783,
+            "height": 36.12421372602943,
+            "transcription": "보내",
+            "label": "sender_key"
+        },
+        {
+            "x": 1327.9299999999998,
+            "y": 486.89,
+            "width": 66.2859605762649,
+            "height": 34.742305191724775,
+            "transcription": "는분",
+            "label": "sender_key"
+        },
+        {
+            "x": 1385.77,
+            "y": 463.83000000000004,
+            "width": 147.33966221239197,
+            "height": 42.78248914326413,
+            "transcription": "새니피아",
+            "label": "sender_name"
+        },
+        {
+            "x": 1899.2999999999997,
+            "y": 481.51,
+            "width": 265.9929992830406,
+            "height": 39.7894833818458,
+            "transcription": "070-4225-2855",
+            "label": "sender_phone_number"
+        },
+        {
+            "x": 1464.52,
+            "y": 470.4499999999996,
+            "width": 608.0030976862051,
+            "height": 133.32,
+            "transcription": "배 달 표",
+            "label": "others"
+        },
+        {
+            "x": 1338.7600000000002,
+            "y": 525.15,
+            "width": 555.4424791133805,
+            "height": 53.24,
+            "transcription": "입금 확인되면 당일 발송 부탁드립니다.",
+            "label": "delivery_message"
+        },
+        {
+            "x": 2154.5699999999997,
+            "y": 559.07,
+            "width": 261.88428428219345,
+            "height": 36.92,
+            "transcription": "202    년    월    일",
+            "label": "others"
+        },
+        {
+            "x": 2155.7,
+            "y": 595.46,
+            "width": 394.5086537352382,
+            "height": 44.31,
+            "transcription": "인수자                   (성명)",
+            "label": "others"
+        },
+        {
+            "x": 1330.19,
+            "y": 638.21,
+            "width": 130.87727454732098,
+            "height": 37.74714678377618,
+            "transcription": "Box수량",
+            "label": "others"
+        },
+        {
+            "x": 1506.35,
+            "y": 629.9299999999998,
+            "width": 204.30095760238777,
+            "height": 50.72297237180079,
+            "transcription": "극소 C 1",
+            "label": "others"
+        },
+        {
+            "x": 1773.37,
+            "y": 644.77,
+            "width": 95.55162247107324,
+            "height": 38.224722022682364,
+            "transcription": "운  임",
+            "label": "others"
+        },
+        {
+            "x": 2108.671409586628,
+            "y": 640.96,
+            "width": 32.98870433683811,
+            "height": 44.96781308884165,
+            "transcription": "0",
+            "label": "others"
+        },
+        {
+            "x": 2189.8499999999995,
+            "y": 658.49,
+            "width": 121.01938577301647,
+            "height": 37.04269264690998,
+            "transcription": "정산구분",
+            "label": "others"
+        },
+        {
+            "x": 2373.0699999999997,
+            "y": 647.8499999999999,
+            "width": 90.06618853703169,
+            "height": 53.73211357713451,
+            "transcription": "신용",
+            "label": "others"
+        },
+        {
+            "x": 1324.7600000000002,
+            "y": 796.6500000000001,
+            "width": 50.816735805041915,
+            "height": 48.17376810571905,
+            "transcription": "제거",
+            "label": "others"
+        },
+        {
+            "x": 1325.3400000000001,
+            "y": 884.45,
+            "width": 47.8987637591967,
+            "height": 134.25213292741424,
+            "transcription": "받는분",
+            "label": "recipient_key"
+        },
+        {
+            "x": 1661.87,
+            "y": 851.97,
+            "width": 480.07,
+            "height": 44.322064376528026,
+            "transcription": "104052140973/2023 09 21",
+            "label": "others"
+        },
+        {
+            "x": 1374.67,
+            "y": 896.25,
+            "width": 85.58298663446094,
+            "height": 38.62211368355809,
+            "transcription": "이재*",
+            "label": "recipient_name"
+        },
+        {
+            "x": 1370.85,
+            "y": 957.49,
+            "width": 281.36761558823395,
+            "height": 43.12598839921656,
+            "transcription": "010-7106-****/",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 1655.0900000000001,
+            "y": 962.78,
+            "width": 264.95674259011696,
+            "height": 36.95175067447075,
+            "transcription": "010-7106-****",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 2143.1399999999994,
+            "y": 978.44,
+            "width": 208.71086305109066,
+            "height": 30.11477601818638,
+            "transcription": "680719537910",
+            "label": "tracking_number"
+        },
+        {
+            "x": 1371.7599999999998,
+            "y": 1000.46,
+            "width": 113.16652555436144,
+            "height": 42.21024505765741,
+            "transcription": "경기도",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 1493.38,
+            "y": 1000.1300000000001,
+            "width": 107.27802179295873,
+            "height": 42.48641946883176,
+            "transcription": "의왕시",
+            "label": "recipient_address_si"
+        },
+        {
+            "x": 1611.4299999999998,
+            "y": 1000.0699999999999,
+            "width": 217.01247752303982,
+            "height": 46.21975813201772,
+            "transcription": "철도박물관로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 1839.87,
+            "y": 1008.9800000000002,
+            "width": 71.08449272724718,
+            "height": 36.30038768335464,
+            "transcription": "176",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 1921.5,
+            "y": 1008.6099999999997,
+            "width": 132.18740058230424,
+            "height": 45.61101023628033,
+            "transcription": "(월암동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 2061.45,
+            "y": 1009.5399999999989,
+            "width": 321.9943787311521,
+            "height": 47.93,
+            "transcription": "한국철도기술연구원)",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 2390.4800000000005,
+            "y": 1012.5899999999996,
+            "width": 67.7130455794867,
+            "height": 40.12435805671939,
+            "transcription": "한국",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1370.0882862662938,
+            "y": 1040.44,
+            "width": 254.0918309263894,
+            "height": 44.8,
+            "transcription": "철도기술연구원",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1632.3199999999997,
+            "y": 1045.28,
+            "width": 256.30095419707726,
+            "height": 45.36,
+            "transcription": "교통환경연구팀",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 1899.3900000000003,
+            "y": 1051.5700000000002,
+            "width": 83.96201710371156,
+            "height": 40.02352898984153,
+            "transcription": "11동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 1991.85,
+            "y": 1051.3599999999997,
+            "width": 106.18556654132915,
+            "height": 38.20480576941605,
+            "transcription": "406호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 2110.5700000000006,
+            "y": 1052.52,
+            "width": 115.80424726010057,
+            "height": 43.355007482839774,
+            "transcription": "[월암동",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 2234.5600000000004,
+            "y": 1054.8600000000001,
+            "width": 116.6088855397651,
+            "height": 42.001074094698055,
+            "transcription": "360-1]",
+            "label": "recipient_address_jibeon"
+        },
+        {
+            "x": 1319.88,
+            "y": 1115.0300000000002,
+            "width": 48.56845453452079,
+            "height": 175.22942164325258,
+            "transcription": "보내는분",
+            "label": "sender_key"
+        },
+        {
+            "x": 1365.2999999999997,
+            "y": 1094.5899999999997,
+            "width": 133.91194613771796,
+            "height": 40.23616482606682,
+            "transcription": "새니피아",
+            "label": "sender_name"
+        },
+        {
+            "x": 1363.9,
+            "y": 1147.69,
+            "width": 272.77808411746395,
+            "height": 39.04690005522155,
+            "transcription": "070-4225-2855",
+            "label": "sender_phone_number"
+        },
+        {
+            "x": 1365.07,
+            "y": 1201.7680721380807,
+            "width": 97.94,
+            "height": 39.70922619506328,
+            "transcription": "경기도",
+            "label": "sender_address_do"
+        },
+        {
+            "x": 1468.7999999999997,
+            "y": 1195.48,
+            "width": 95.91120865299334,
+            "height": 40.63996632142627,
+            "transcription": "화성시",
+            "label": "sender_address_si"
+        },
+        {
+            "x": 1571.0299999999997,
+            "y": 1196.8599999999997,
+            "width": 96.21837136428502,
+            "height": 44.79589443938006,
+            "transcription": "정남면",
+            "label": "sender_address_myeon"
+        },
+        {
+            "x": 1783.79,
+            "y": 1209.62,
+            "width": 122.35532993277256,
+            "height": 33.31954921694957,
+            "transcription": "415-21",
+            "label": "sender_address_jibeon"
+        },
+        {
+            "x": 1912.0700000000002,
+            "y": 1207.87,
+            "width": 133.01182028384986,
+            "height": 38.522975158775196,
+            "transcription": "새니피아",
+            "label": "sender_address_detail"
+        },
+        {
+            "x": 2250.55,
+            "y": 1140.31,
+            "width": 75.37364009873814,
+            "height": 46.74490308734025,
+            "transcription": "신용",
+            "label": "others"
+        },
+        {
+            "x": 2482.3999999999996,
+            "y": 1273.63,
+            "width": 76.68189201787597,
+            "height": 34.32952442534914,
+            "transcription": "2307",
+            "label": "others"
+        },
+        {
+            "x": 1388.48,
+            "y": 846.1699999999998,
+            "width": 276.76869981625765,
+            "height": 43.4638331855562,
+            "transcription": "새니피아스토어팜/",
+            "label": "sender_name"
+        }
+    ]
+}

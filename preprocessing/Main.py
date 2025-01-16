@@ -13,11 +13,11 @@ from Rotate import ImageRotatorAndFilter
 
 def main():
     # 디렉토리 경로 설정
-    input_directory = './invoice'
-    warped_directory = './warped_invoice_5'
-    filtered_directory = './warped_invoice_filter_5'
-    rotated_directory = './rotated_and_filtered_invoice_5'
-    cut_directory = './cut_invoice'
+    input_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\invoice'
+    warped_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\warped_invoice_5'
+    filtered_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\warped_invoice_filter_5'
+    rotated_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\rotated_and_filtered_invoice_5'
+    cut_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\cut_invoice'
 
     # 자주 등장하는 단어 리스트 설정 (예시)
     common_words = [

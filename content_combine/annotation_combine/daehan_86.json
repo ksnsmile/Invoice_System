@@ -1,0 +1,544 @@
+{
+    "file_name": "daehan_86.jpg",
+    "id": 135479772,
+    "original_width": 1120,
+    "original_height": 1339,
+    "objects": [
+        {
+            "x": 28.072576107389267,
+            "y": 36.879999999999995,
+            "width": 97.00631655415123,
+            "height": 29.59,
+            "transcription": "운송장번호",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 170.02,
+            "y": 47.94999999999999,
+            "width": 349.73313922707695,
+            "height": 46.69440809843263,
+            "transcription": "6806-5231-4460",
+            "label": "tracking_number"
+        },
+        {
+            "x": 615.17,
+            "y": 46.510000000000005,
+            "width": 143.91,
+            "height": 30.369270633792382,
+            "transcription": "2023.09.19",
+            "label": "others"
+        },
+        {
+            "x": 859.8300000000002,
+            "y": 46.58,
+            "width": 141.44,
+            "height": 33.31680013580084,
+            "transcription": "330 / 500",
+            "label": "others"
+        },
+        {
+            "x": 1087.3755379393128,
+            "y": 87.42,
+            "width": 58.25,
+            "height": 38.92,
+            "transcription": "코스",
+            "label": "others"
+        },
+        {
+            "x": 1159.91,
+            "y": 100.57283195208771,
+            "width": 31.99,
+            "height": 28.805323654640542,
+            "transcription": "CJ",
+            "label": "company_name"
+        },
+        {
+            "x": 1234.06,
+            "y": 102.56,
+            "width": 77.33316331756312,
+            "height": 26.844382619186543,
+            "transcription": "대한몽운",
+            "label": "company_name"
+        },
+        {
+            "x": 1193.08,
+            "y": 147.82209588838873,
+            "width": 109.3,
+            "height": 25.476044432974703,
+            "transcription": "택배이용문의",
+            "label": "others"
+        },
+        {
+            "x": 1193.22,
+            "y": 173.83268666302496,
+            "width": 110.39,
+            "height": 25.21083641362185,
+            "transcription": "전국어디서나",
+            "label": "others"
+        },
+        {
+            "x": 1193.6799999999998,
+            "y": 199.16000000000003,
+            "width": 109.25394476033769,
+            "height": 23.398986641043155,
+            "transcription": "1588-1255",
+            "label": "others"
+        },
+        {
+            "x": 383.55999999999995,
+            "y": 163.72000000000003,
+            "width": 71.39590101204587,
+            "height": 93.58935003183065,
+            "transcription": "4",
+            "label": "terminal_number"
+        },
+        {
+            "x": 464.2700000000001,
+            "y": 124.57999999999998,
+            "width": 324.58623767629086,
+            "height": 159.2,
+            "transcription": "D04",
+            "label": "terminal_number"
+        },
+        {
+            "x": 846.8,
+            "y": 189.56,
+            "width": 188.93285661119455,
+            "height": 90.55429065678433,
+            "transcription": "- 1b",
+            "label": "terminal_number"
+        },
+        {
+            "x": 14.809999999999985,
+            "y": 323.94999999999993,
+            "width": 42.37919802885298,
+            "height": 134.63613587471272,
+            "transcription": "받는분",
+            "label": "recipient_key"
+        },
+        {
+            "x": 83.45000000000002,
+            "y": 308.69127251136797,
+            "width": 87.1,
+            "height": 35.44998117698562,
+            "transcription": "권다*",
+            "label": "recipient_name"
+        },
+        {
+            "x": 252.60999999999981,
+            "y": 301.80999999999995,
+            "width": 325.0542267811502,
+            "height": 36.19,
+            "transcription": "0503-8470-3942/",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 582.23,
+            "y": 297.63,
+            "width": 268.30824746399395,
+            "height": 36.99,
+            "transcription": "0503-8470-****",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 848.9000000000001,
+            "y": 280.15,
+            "width": 192.19865692584165,
+            "height": 34.35,
+            "transcription": "주문하신분",
+            "label": "others"
+        },
+        {
+            "x": 1036.88,
+            "y": 299.1600000000001,
+            "width": 56.11,
+            "height": 27.22329022207282,
+            "transcription": "권다*",
+            "label": "others"
+        },
+        {
+            "x": 75.89000000000001,
+            "y": 353.88,
+            "width": 101.78,
+            "height": 34.52224052596255,
+            "transcription": "경기도",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 193.5665260623714,
+            "y": 351.53,
+            "width": 100.57426952648639,
+            "height": 36.22,
+            "transcription": "안산시",
+            "label": "recipient_address_si"
+        },
+        {
+            "x": 310.87,
+            "y": 350.7225188897479,
+            "width": 107.74,
+            "height": 36.26956747113037,
+            "transcription": "단원구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 431.8,
+            "y": 349.50473698762676,
+            "width": 133.85,
+            "height": 36.534938206250736,
+            "transcription": "광덕2로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 580.191156793111,
+            "y": 347.88137926212,
+            "width": 69.96,
+            "height": 33.84,
+            "transcription": "121",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 665.8436836831205,
+            "y": 345.8,
+            "width": 112.87,
+            "height": 36.98,
+            "transcription": "508동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 793.42,
+            "y": 346.5315826087424,
+            "width": 131.41,
+            "height": 33.802472106628706,
+            "transcription": "1202호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 925.6800000000001,
+            "y": 345.2099999999999,
+            "width": 135.07,
+            "height": 41.0183248119719,
+            "transcription": "(고잔동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 1072.5300000000002,
+            "y": 346.4079710640386,
+            "width": 194.07,
+            "height": 37.78938345477323,
+            "transcription": "안산고잔5차",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 73.74999999999999,
+            "y": 392.53700607685005,
+            "width": 158.81,
+            "height": 35.261823544592204,
+            "transcription": "푸르지오)",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 244.0999999999998,
+            "y": 390.63,
+            "width": 149.71316869314253,
+            "height": 37.73365847892489,
+            "transcription": "[고잔동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 407.2400000000002,
+            "y": 386.47,
+            "width": 482.8926772551996,
+            "height": 37.12,
+            "transcription": "안산고잔푸르지오5차아파트]",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 76.38000000000005,
+            "y": 422.4200000000001,
+            "width": 419.4,
+            "height": 79.03153528256178,
+            "transcription": "푸르지오5차",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 513.14,
+            "y": 420.4591382823638,
+            "width": 223.91,
+            "height": 76.37171893703143,
+            "transcription": "508동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 761.4199999999998,
+            "y": 417.7,
+            "width": 263.9294121549296,
+            "height": 73.31,
+            "transcription": "1202호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 3.1331159506016846,
+            "y": 505.15000000000003,
+            "width": 51.91724237086495,
+            "height": 31.41,
+            "transcription": "보내",
+            "label": "sender_key"
+        },
+        {
+            "x": 2.960000000000001,
+            "y": 538.6099999999999,
+            "width": 53.440104275480046,
+            "height": 31.31559663415204,
+            "transcription": "는분",
+            "label": "sender_key"
+        },
+        {
+            "x": 71.44,
+            "y": 517.3,
+            "width": 207.42,
+            "height": 31.154916288503582,
+            "transcription": "농협경제지주(주)",
+            "label": "sender_name"
+        },
+        {
+            "x": 459.5245883022252,
+            "y": 515.4,
+            "width": 186.71492097406554,
+            "height": 26.49,
+            "transcription": "080-815-7777",
+            "label": "sender_phone_number"
+        },
+        {
+            "x": 71.04999999999995,
+            "y": 555.27,
+            "width": 123.12068831919682,
+            "height": 30.57609196016403,
+            "transcription": "전라남도",
+            "label": "sender_address_do"
+        },
+        {
+            "x": 204.12,
+            "y": 553.1699999999998,
+            "width": 90.0949372109093,
+            "height": 32.435818673391175,
+            "transcription": "해남군",
+            "label": "sender_address_gun"
+        },
+        {
+            "x": 305.47258927463406,
+            "y": 553.08,
+            "width": 92.31790086263332,
+            "height": 31.27,
+            "transcription": "화산면",
+            "label": "sender_address_myeon"
+        },
+        {
+            "x": 409.5799999999999,
+            "y": 552.12,
+            "width": 157.13841070103,
+            "height": 31.65,
+            "transcription": "해남화산로",
+            "label": "sender_address_ro_name"
+        },
+        {
+            "x": 575.1100000000001,
+            "y": 553.37,
+            "width": 50.16550173336261,
+            "height": 27.78,
+            "transcription": "975",
+            "label": "sender_address_ro_number"
+        },
+        {
+            "x": 630.9299999999998,
+            "y": 550.06,
+            "width": 372.2078427844841,
+            "height": 33.55654167189172,
+            "transcription": "해남화산농혐산지유통센터",
+            "label": "sender_address_detail"
+        },
+        {
+            "x": 679.04,
+            "y": 500.29999999999995,
+            "width": 150.41206778533262,
+            "height": 33.98946184975677,
+            "transcription": "주문번호",
+            "label": "others"
+        },
+        {
+            "x": 829.3599999999998,
+            "y": 516.4262158372524,
+            "width": 452.62,
+            "height": 29.885322583552743,
+            "transcription": "211060550_10001_146238891",
+            "label": "others"
+        },
+        {
+            "x": 7.159999999999997,
+            "y": 671.7,
+            "width": 153.3642459237673,
+            "height": 32.47,
+            "transcription": "11752286",
+            "label": "others"
+        },
+        {
+            "x": 168.14000000000038,
+            "y": 669.94,
+            "width": 289.2419598089802,
+            "height": 38.06521094072961,
+            "transcription": "밤고구마3.5kg*2박스",
+            "label": "product_name"
+        },
+        {
+            "x": 775.09,
+            "y": 701.1797464949077,
+            "width": 16.44,
+            "height": 25.619000555697195,
+            "transcription": "1",
+            "label": "others"
+        },
+        {
+            "x": 2.0700000000000074,
+            "y": 796.68,
+            "width": 207.801294632471,
+            "height": 33.43,
+            "transcription": "주문자: 권다*_",
+            "label": "others"
+        },
+        {
+            "x": 207.46999999999983,
+            "y": 794.51,
+            "width": 480.14771527989797,
+            "height": 33.61,
+            "transcription": "부재시 문 앞에 두세요 감사합니다",
+            "label": "delivery_message"
+        },
+        {
+            "x": 0.9799999999999969,
+            "y": 898.29,
+            "width": 95.27494419419314,
+            "height": 57.78134404309122,
+            "transcription": "일반",
+            "label": "others"
+        },
+        {
+            "x": 394.82000000000005,
+            "y": 872.44,
+            "width": 324.69,
+            "height": 31.402767162799382,
+            "transcription": "개인정보 유출우려가 있으니",
+            "label": "others"
+        },
+        {
+            "x": 394.81999999999994,
+            "y": 904.1978582323991,
+            "width": 272.4,
+            "height": 31.571919031072266,
+            "transcription": "운송장은 폐기바랍니다.",
+            "label": "others"
+        },
+        {
+            "x": 0,
+            "y": 1008.8899999999998,
+            "width": 90.80535895161898,
+            "height": 41.34,
+            "transcription": "권다*",
+            "label": "others"
+        },
+        {
+            "x": 187.85,
+            "y": 1007.96,
+            "width": 195.74,
+            "height": 37.967375975149274,
+            "transcription": "푸르지오5차",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 393.81999999999994,
+            "y": 1008.5899999999986,
+            "width": 95.2,
+            "height": 36.159630838148686,
+            "transcription": "508동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 502.43000000000006,
+            "y": 1008.6393354276158,
+            "width": 109.54,
+            "height": 35.33233815016122,
+            "transcription": "1202호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 9.580000000000013,
+            "y": 1068.72,
+            "width": 393.8647833509021,
+            "height": 47.5,
+            "transcription": "안산공단-B10-박재일",
+            "label": "others"
+        },
+        {
+            "x": 450.96,
+            "y": 1046.2238036081908,
+            "width": 42.06,
+            "height": 33.556149275607616,
+            "transcription": "운임",
+            "label": "others"
+        },
+        {
+            "x": 623.99,
+            "y": 1071.04,
+            "width": 24.406949881388304,
+            "height": 34.16,
+            "transcription": "0",
+            "label": "others"
+        },
+        {
+            "x": 675.11,
+            "y": 1043.96,
+            "width": 44.77,
+            "height": 34.46069249105452,
+            "transcription": "정산",
+            "label": "others"
+        },
+        {
+            "x": 752.84,
+            "y": 1062.8380094608506,
+            "width": 61.56,
+            "height": 42.42274660229787,
+            "transcription": "신용",
+            "label": "others"
+        },
+        {
+            "x": 877.7105477155195,
+            "y": 630.63,
+            "width": 405.61019228079374,
+            "height": 112.19,
+            "transcription": "공영쇼핑",
+            "label": "others"
+        },
+        {
+            "x": 915.3999999999992,
+            "y": 779.54,
+            "width": 307.99638863492345,
+            "height": 31.546003941588317,
+            "transcription": "상담전화 080-815-7777",
+            "label": "others"
+        },
+        {
+            "x": 922.349999999999,
+            "y": 814.5900000000001,
+            "width": 294.43127573633507,
+            "height": 26.45718148454676,
+            "transcription": "www.gongyoungshop.kr",
+            "label": "others"
+        },
+        {
+            "x": 997.230000000001,
+            "y": 1074.4,
+            "width": 179.16479202183052,
+            "height": 29.721132373331784,
+            "transcription": "680652314460",
+            "label": "tracking_number"
+        }
+    ]
+}

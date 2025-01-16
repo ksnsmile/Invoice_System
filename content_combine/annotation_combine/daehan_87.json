@@ -1,0 +1,440 @@
+{
+    "file_name": "daehan_87.jpg",
+    "id": 135479856,
+    "original_width": 740,
+    "original_height": 861,
+    "objects": [
+        {
+            "x": 8.96,
+            "y": 0,
+            "width": 70.69164268685716,
+            "height": 19.4836051718683,
+            "transcription": "운송장번호",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 98.66000000000008,
+            "y": 7.77000000000001,
+            "width": 240.92393519104442,
+            "height": 27.26585361808319,
+            "transcription": "3407-1943-6270",
+            "label": "tracking_number"
+        },
+        {
+            "x": 415.11,
+            "y": 9.559999999999995,
+            "width": 139.78333768245074,
+            "height": 22.796355708427217,
+            "transcription": "2020-06-29",
+            "label": "others"
+        },
+        {
+            "x": 777.08,
+            "y": 37.73177546459425,
+            "width": 41.51,
+            "height": 28.090915591914808,
+            "transcription": "코스",
+            "label": "others"
+        },
+        {
+            "x": 258.11,
+            "y": 73.22999999999999,
+            "width": 51.26,
+            "height": 74.83696413790437,
+            "transcription": "2",
+            "label": "terminal_number"
+        },
+        {
+            "x": 327.4100000000001,
+            "y": 56.02999999999997,
+            "width": 236.50810196901048,
+            "height": 104.48778244361654,
+            "transcription": "S10",
+            "label": "terminal_number"
+        },
+        {
+            "x": 577.21,
+            "y": 71.5,
+            "width": 76.53926092983966,
+            "height": 83.0736683326425,
+            "transcription": "-0",
+            "label": "terminal_number"
+        },
+        {
+            "x": 0.9400000000000084,
+            "y": 200.13,
+            "width": 31.617822312082495,
+            "height": 96.9201158455928,
+            "transcription": "받는분",
+            "label": "recipient_key"
+        },
+        {
+            "x": 38.62999999999997,
+            "y": 182.47999999999996,
+            "width": 92.10347092560403,
+            "height": 32.21185072793919,
+            "transcription": "조승연",
+            "label": "recipient_name"
+        },
+        {
+            "x": 322.43000000000006,
+            "y": 184.20999999999998,
+            "width": 59.887424406040765,
+            "height": 29.612286330118035,
+            "transcription": "010",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 38.77000000000001,
+            "y": 213.59000000000003,
+            "width": 142.38337099037832,
+            "height": 30.36130631028266,
+            "transcription": "서울특별시",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 186.78000000000003,
+            "y": 213.84000000000003,
+            "width": 85.63558537357203,
+            "height": 29.986743586334462,
+            "transcription": "강남구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 276.5400000000001,
+            "y": 212.68,
+            "width": 85.44891806417961,
+            "height": 29.90182455755255,
+            "transcription": "논현로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 367.40999999999997,
+            "y": 215.70999999999998,
+            "width": 35.97668287226636,
+            "height": 25.518432990076935,
+            "transcription": "40",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 429.01,
+            "y": 213.12,
+            "width": 110.07,
+            "height": 31.617793704830515,
+            "transcription": "(역삼동)",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 546.6099999999999,
+            "y": 214.53999999999996,
+            "width": 50.31628322241587,
+            "height": 29.27209108226721,
+            "transcription": "3층",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 601.9100000000001,
+            "y": 213.29000000000002,
+            "width": 87.23212955746837,
+            "height": 29.72494855615818,
+            "transcription": "위에화",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 693.6800000000001,
+            "y": 213.27999999999997,
+            "width": 167.32,
+            "height": 29.680258067098734,
+            "transcription": "엔터테인먼트",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 39.52000000000001,
+            "y": 282.01,
+            "width": 141.91726769790222,
+            "height": 58.44,
+            "transcription": "역삼1",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 0,
+            "y": 329.5899999999999,
+            "width": 32.97,
+            "height": 22.18085058444046,
+            "transcription": "보내",
+            "label": "sender_key"
+        },
+        {
+            "x": 0,
+            "y": 353.36,
+            "width": 33.42021555636393,
+            "height": 22.506700150915695,
+            "transcription": "는분",
+            "label": "sender_key"
+        },
+        {
+            "x": 39.19,
+            "y": 340.64,
+            "width": 146.8598465251245,
+            "height": 22.336269698464303,
+            "transcription": "(주)미디어신나라",
+            "label": "sender_name"
+        },
+        {
+            "x": 319.9,
+            "y": 344.40999999999997,
+            "width": 141.19044725788578,
+            "height": 18.604311500877103,
+            "transcription": "031-262-2882",
+            "label": "sender_phone_number"
+        },
+        {
+            "x": 201.71999999999974,
+            "y": 284.86,
+            "width": 214.8953714506477,
+            "height": 51.455808094437515,
+            "transcription": "747-22",
+            "label": "recipient_address_jibeon"
+        },
+        {
+            "x": 35.03999999999999,
+            "y": 366,
+            "width": 58.29561894548576,
+            "height": 20.37048924513317,
+            "transcription": "경기도",
+            "label": "sender_address_do"
+        },
+        {
+            "x": 96.03,
+            "y": 366.46000000000004,
+            "width": 56.68983281931776,
+            "height": 20.961746132510555,
+            "transcription": "수원시",
+            "label": "sender_address_si"
+        },
+        {
+            "x": 158.56,
+            "y": 367.12,
+            "width": 57.245262748754705,
+            "height": 21.504168044477673,
+            "transcription": "영통구",
+            "label": "sender_address_gu"
+        },
+        {
+            "x": 219.68,
+            "y": 367.30999999999995,
+            "width": 57.286523866742634,
+            "height": 21.250402455116333,
+            "transcription": "삼성로",
+            "label": "sender_address_ro_name"
+        },
+        {
+            "x": 279.93583943334556,
+            "y": 368.78,
+            "width": 36.37690351167295,
+            "height": 18.13052254526845,
+            "transcription": "318",
+            "label": "sender_address_ro_number"
+        },
+        {
+            "x": 320.57000000000005,
+            "y": 367.94999999999993,
+            "width": 100.33834346330318,
+            "height": 20.71408115763227,
+            "transcription": "CJ대한통운",
+            "label": "sender_address_detail"
+        },
+        {
+            "x": 423.75,
+            "y": 368.51,
+            "width": 75.3220956631797,
+            "height": 21.001780440224547,
+            "transcription": "수원지점",
+            "label": "sender_address_detail"
+        },
+        {
+            "x": 479.08000000000004,
+            "y": 331.13,
+            "width": 32.22686369333743,
+            "height": 23.759883542238565,
+            "transcription": "수량",
+            "label": "others"
+        },
+        {
+            "x": 543.1142492337485,
+            "y": 344.69,
+            "width": 51.96691622593609,
+            "height": 18.89,
+            "transcription": "소 C1",
+            "label": "others"
+        },
+        {
+            "x": 676.76,
+            "y": 329.7900000000001,
+            "width": 29.693220512583867,
+            "height": 23.36774420992342,
+            "transcription": "운임",
+            "label": "others"
+        },
+        {
+            "x": 835.0871587075071,
+            "y": 328.3699352518727,
+            "width": 15.433324286786826,
+            "height": 18.031104095345473,
+            "transcription": "정",
+            "label": "others"
+        },
+        {
+            "x": 27.569999999999993,
+            "y": 397.44000000000005,
+            "width": 657.6951151442336,
+            "height": 26.54,
+            "transcription": "묶  포 우 즈 (WOODZ 조승연) - EQUAL (1ST 미니앨범) EARTH VER.",
+            "label": "product_name"
+        },
+        {
+            "x": 30.480000000000018,
+            "y": 432.34000000000003,
+            "width": 670.9036231444036,
+            "height": 27.53,
+            "transcription": "묶  포 우 즈 (WOODZ 조승연) - EQUAL (1ST 미니앨범) COSMIC VER.",
+            "label": "product_name"
+        },
+        {
+            "x": 474.89000000000016,
+            "y": 247.72999999999976,
+            "width": 386.10999999999984,
+            "height": 140.32591502541308,
+            "transcription": "7-22",
+            "label": "handwriting"
+        },
+        {
+            "x": 713.69,
+            "y": 398.22,
+            "width": 126.93989954952752,
+            "height": 110.88125074705144,
+            "transcription": "3F",
+            "label": "handwriting"
+        },
+        {
+            "x": 827.46,
+            "y": 46.36,
+            "width": 23.486126079104398,
+            "height": 21.058562504004197,
+            "transcription": "CJ",
+            "label": "company_name"
+        },
+        {
+            "x": 22.569999999999933,
+            "y": 589.72,
+            "width": 43.37905806608351,
+            "height": 26.189048954136474,
+            "transcription": "ASD",
+            "label": "others"
+        },
+        {
+            "x": 73.57000000000001,
+            "y": 588.6500000000001,
+            "width": 240.65705151311894,
+            "height": 22.691729612689716,
+            "transcription": "UN지원 SDGs협회와 지속가능한",
+            "label": "others"
+        },
+        {
+            "x": 166.69,
+            "y": 610.1599999999999,
+            "width": 81.89601074541824,
+            "height": 20.768061523635456,
+            "transcription": "어 갑니다.",
+            "label": "others"
+        },
+        {
+            "x": 62.20999999999998,
+            "y": 609.99,
+            "width": 104.48,
+            "height": 26.547031377340726,
+            "transcription": "[총수량]",
+            "label": "others"
+        },
+        {
+            "x": 267.54999999999995,
+            "y": 614.76,
+            "width": 18.490764990830915,
+            "height": 22.442632106466796,
+            "transcription": "2",
+            "label": "others"
+        },
+        {
+            "x": 355.80000000000007,
+            "y": 582.8599999999999,
+            "width": 228.84554098108228,
+            "height": 23.098988928382635,
+            "transcription": "개인정보 유출우려가 있으니",
+            "label": "others"
+        },
+        {
+            "x": 355.51,
+            "y": 604.3899999999999,
+            "width": 190.47204431755975,
+            "height": 22.11018154559342,
+            "transcription": "운송장은 폐기바랍니다.",
+            "label": "others"
+        },
+        {
+            "x": 13.629999999999995,
+            "y": 658.33,
+            "width": 532.245776415603,
+            "height": 30.51,
+            "transcription": "OODZ의 EQUAL 이 나왔습니다 기사님도 들어주세",
+            "label": "delivery_message"
+        },
+        {
+            "x": 0,
+            "y": 706.8399999999999,
+            "width": 339.2881033949767,
+            "height": 33.16,
+            "transcription": "강남한솔-유광현-H04",
+            "label": "others"
+        },
+        {
+            "x": 312.91687540772773,
+            "y": 705.7580275850332,
+            "width": 29.76976561099616,
+            "height": 22.67558853069273,
+            "transcription": "운임",
+            "label": "others"
+        },
+        {
+            "x": 467.22,
+            "y": 705.74,
+            "width": 32.906680482970394,
+            "height": 23.699665254670197,
+            "transcription": "정산",
+            "label": "others"
+        },
+        {
+            "x": 842.3399999999999,
+            "y": 398.78,
+            "width": 13.40200979315539,
+            "height": 25.170675116380423,
+            "transcription": "1",
+            "label": "others"
+        },
+        {
+            "x": 843.3,
+            "y": 434.9,
+            "width": 13.046166746066776,
+            "height": 24.289888633401404,
+            "transcription": "1",
+            "label": "others"
+        },
+        {
+            "x": 518.4451127666953,
+            "y": 722.2326416600159,
+            "width": 48.799589221377985,
+            "height": 17.76735833998414,
+            "transcription": "시요",
+            "label": "others"
+        }
+    ]
+}

@@ -1,0 +1,328 @@
+{
+    "file_name": "lotte_25.jpg",
+    "id": 135486013,
+    "original_width": 2199,
+    "original_height": 1634,
+    "objects": [
+        {
+            "x": 713.2046360136892,
+            "y": 0,
+            "width": 305.10712600995885,
+            "height": 64.47,
+            "transcription": "230919 / 4 ]",
+            "label": "others"
+        },
+        {
+            "x": 262.85,
+            "y": 42.449999999999974,
+            "width": 208.56,
+            "height": 122.61470928831473,
+            "transcription": "B-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 788.9603420718462,
+            "y": 106.30621162369566,
+            "width": 304.2987152176484,
+            "height": 138.75655776539935,
+            "transcription": "단07",
+            "label": "terminal_number"
+        },
+        {
+            "x": 1143.2545053293318,
+            "y": 31.761176131238656,
+            "width": 235.4001280110371,
+            "height": 62.75537650919108,
+            "transcription": "(43 / 500)",
+            "label": "others"
+        },
+        {
+            "x": 1606.2580149248415,
+            "y": 47.83255512377342,
+            "width": 521.865567536109,
+            "height": 42.30805533448411,
+            "transcription": "개인정보 보호를 위해 운송장은 폐기 바랍니다.",
+            "label": "others"
+        },
+        {
+            "x": 1652.647108821363,
+            "y": 129.88716917363072,
+            "width": 410.1417465977003,
+            "height": 75.76838351663254,
+            "transcription": "안산단원(대)",
+            "label": "terminal_number"
+        },
+        {
+            "x": 1654.48,
+            "y": 235.21344303018788,
+            "width": 195.59,
+            "height": 66.19636373594707,
+            "transcription": "단07-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 1857.2272961783806,
+            "y": 232.08491259816043,
+            "width": 212.59850268579356,
+            "height": 68.92184283741877,
+            "transcription": "안광호",
+            "label": "others"
+        },
+        {
+            "x": 179.73999999999987,
+            "y": 169.8,
+            "width": 285.16795575854303,
+            "height": 80.41,
+            "transcription": "안산시 고",
+            "label": "others"
+        },
+        {
+            "x": 65.49838633107595,
+            "y": 249.83551220550504,
+            "width": 240.88512691192528,
+            "height": 75.52771359711603,
+            "transcription": "운송장번호",
+            "label": "tracking_number_key"
+        },
+        {
+            "x": 360.76030235667383,
+            "y": 284.3693476787368,
+            "width": 35.23751448444223,
+            "height": 49.12471085159048,
+            "transcription": "4",
+            "label": "tracking_number"
+        },
+        {
+            "x": 489.38,
+            "y": 295.53999999999996,
+            "width": 283.74507329978263,
+            "height": 57.01,
+            "transcription": "8-0647-",
+            "label": "tracking_number"
+        },
+        {
+            "x": 821.8215085318919,
+            "y": 330.2452704436369,
+            "width": 111.48918517208786,
+            "height": 53.94085897429541,
+            "transcription": "755",
+            "label": "tracking_number"
+        },
+        {
+            "x": 1649.860807411663,
+            "y": 370.7092966948776,
+            "width": 201.41630247642132,
+            "height": 48.889308386515,
+            "transcription": "롯데택배",
+            "label": "company_name"
+        },
+        {
+            "x": 1858.0099257454387,
+            "y": 367.9378302195272,
+            "width": 256.2341141923993,
+            "height": 43.56162734439472,
+            "transcription": "1588-2121",
+            "label": "others"
+        },
+        {
+            "x": 54.784058726821975,
+            "y": 355.59919693153955,
+            "width": 62.04591494692682,
+            "height": 313.5715631079913,
+            "transcription": "받는분",
+            "label": "recipient_key"
+        },
+        {
+            "x": 183.25026793276587,
+            "y": 387.12870778766285,
+            "width": 246.5235304027116,
+            "height": 87.43664769126708,
+            "transcription": "경기도",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 459.76099289267825,
+            "y": 416.1894640759563,
+            "width": 225.62160192344612,
+            "height": 87.80980439308867,
+            "transcription": "안산시",
+            "label": "recipient_address_si"
+        },
+        {
+            "x": 719.6400000000001,
+            "y": 438.96000000000004,
+            "width": 143.65151119325554,
+            "height": 67.07,
+            "transcription": "단워",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 965.6331303333361,
+            "y": 457.9933226088207,
+            "width": 255.9111827313506,
+            "height": 73.25437486053859,
+            "transcription": "광덕2로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 1251.5154986747077,
+            "y": 475.4265216099234,
+            "width": 114.24180477941964,
+            "height": 58.221718130200045,
+            "transcription": "121",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 1401.9483194100922,
+            "y": 479.32055473422616,
+            "width": 201.72954711479832,
+            "height": 67.69288853517459,
+            "transcription": "513동",
+            "label": "recipient_address_building_number"
+        },
+        {
+            "x": 1607.048890720324,
+            "y": 482.6332087349127,
+            "width": 200.28056368897722,
+            "height": 60.24955797708135,
+            "transcription": "703호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 1813.4699999999998,
+            "y": 479.38308461970445,
+            "width": 262.59,
+            "height": 68.65728631194975,
+            "transcription": "(고잔동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 2085.9399246697503,
+            "y": 478.1240376487169,
+            "width": 67.97408652781196,
+            "height": 66.12592352278621,
+            "transcription": "안",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 178.04904748867972,
+            "y": 497.6673500859447,
+            "width": 179.80242242840717,
+            "height": 67.69288853517465,
+            "transcription": "양희석",
+            "label": "recipient_name"
+        },
+        {
+            "x": 175.69931561700298,
+            "y": 550.9782717657863,
+            "width": 520.0907576433573,
+            "height": 69.83471492798067,
+            "transcription": "010-3431-****/",
+            "label": "recipient_phone_number"
+        },
+        {
+            "x": 175.79236754159868,
+            "y": 603.9642829145617,
+            "width": 169.25760621551368,
+            "height": 55.685197524272056,
+            "transcription": "경기도",
+            "label": "recipient_address_do"
+        },
+        {
+            "x": 368.4351647867043,
+            "y": 619.2618233764543,
+            "width": 154.02507390423818,
+            "height": 56.69644345631396,
+            "transcription": "안산시",
+            "label": "recipient_address_si"
+        },
+        {
+            "x": 545.5925765932518,
+            "y": 633.08,
+            "width": 52.87172513292328,
+            "height": 47.82,
+            "transcription": "단원구",
+            "label": "recipient_address_gu"
+        },
+        {
+            "x": 825.9061285894111,
+            "y": 652.2742792850609,
+            "width": 76.74493640236888,
+            "height": 39.17412530970746,
+            "transcription": "2로",
+            "label": "recipient_address_ro_name"
+        },
+        {
+            "x": 1743.7005898903362,
+            "y": 575.2456185603,
+            "width": 242.5601137766368,
+            "height": 136.87205831872728,
+            "transcription": "(소)",
+            "label": "others"
+        },
+        {
+            "x": 181.18360074686947,
+            "y": 660.258791093355,
+            "width": 20.749555356595987,
+            "height": 39.132630218659145,
+            "transcription": "1",
+            "label": "recipient_address_ro_number"
+        },
+        {
+            "x": 465.8096309906212,
+            "y": 678.8113191304551,
+            "width": 146.14903548465406,
+            "height": 47.77618937723305,
+            "transcription": "703호",
+            "label": "recipient_address_room_number"
+        },
+        {
+            "x": 616.4436509061438,
+            "y": 683.83,
+            "width": 189.57559727497997,
+            "height": 59.56,
+            "transcription": "(고잔동,",
+            "label": "recipient_address_dong"
+        },
+        {
+            "x": 813.877041393863,
+            "y": 697.4627993099839,
+            "width": 272.5228353880038,
+            "height": 57.97770545836711,
+            "transcription": "안산고잔5차",
+            "label": "recipient_address_detail"
+        },
+        {
+            "x": 32.72881015312707,
+            "y": 741.5533146890906,
+            "width": 97.30825960334673,
+            "height": 48.915787773323885,
+            "transcription": "보내",
+            "label": "sender_key"
+        },
+        {
+            "x": 32.55764468162711,
+            "y": 789.4417464730934,
+            "width": 99.93590173456573,
+            "height": 49.702648626315025,
+            "transcription": "는분",
+            "label": "sender_key"
+        },
+        {
+            "x": 492.9300000000002,
+            "y": 74.23000000000002,
+            "width": 272.95686516754444,
+            "height": 128.48,
+            "transcription": "39-",
+            "label": "terminal_number"
+        },
+        {
+            "x": 400.4723322657561,
+            "y": 189.08103251380493,
+            "width": 536.548066338918,
+            "height": 479.36494349867144,
+            "transcription": "513",
+            "label": "handwriting"
+        }
+    ]
+}
