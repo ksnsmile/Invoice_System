@@ -13,9 +13,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 from transformers import BertTokenizerFast
 from torchvision.transforms import ToTensor
-from check.LayoutLM import LayoutLMForTokenClassification
-from check.Evaluate import *
-from check.Preprocessing import is_image_file
+from Check.LayoutLM import LayoutLMForTokenClassification
+from Check.Evaluate import *
+from Check.Preprocessing import is_image_file
 
 
 
@@ -24,7 +24,7 @@ def Main_check():
         print("초기화 시작...")
         # 경로 설정
         
-        folder_path = r"C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\rotated_and_filtered_invoice_5"
+        folder_path = r"C:\Users\user\Desktop\ksn\Invoice_System\Preprocessing\rotated_and_filtered_invoice_5"
         font_path = r"C:\Users\user\Desktop\ksn\Invoice_System\Font\NotoSansKR-Medium.ttf"
         
         print("모델 로딩...")
@@ -158,6 +158,7 @@ def Main_check():
                 plt.imshow(img)
                 plt.axis('off')
                 plt.title(f"LayoutLM Detection Results : {file_name}")
+                plt.savefig(fr"C:\Users\user\Desktop\ksn\Invoice_System\Results\{file_name}.png")
                 plt.show()
                 plt.close()
 
@@ -180,4 +181,4 @@ def Main_check():
             print(f"{stage}: {avg_time:.4f} seconds")
 
 if __name__ == "__main__":
-    main()
+    Main_check()

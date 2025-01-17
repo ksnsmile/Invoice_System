@@ -7,17 +7,17 @@ Created on Wed Jan 15 14:24:49 2025
 
 # main.py
 import time
-from preprocessing.Wrap import DocumentProcessor
-from preprocessing.KoreanFilter import KoreanTextFilter
-from preprocessing.Rotate import ImageRotatorAndFilter
+from Preprocessing.Wrap import DocumentProcessor
+from Preprocessing.KoreanFilter import KoreanTextFilter
+from Preprocessing.Rotate import ImageRotatorAndFilter
 
 def Main_preprocessing():
     # 디렉토리 경로 설정
-    input_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\invoice'
-    warped_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\warped_invoice_5'
-    filtered_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\warped_invoice_filter_5'
-    rotated_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\rotated_and_filtered_invoice_5'
-    cut_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\preprocessing\cut_invoice'
+    input_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\Preprocessing\crops\invoice'
+    warped_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\Preprocessing\warped_invoice_5'
+    filtered_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\Preprocessing\warped_invoice_filter_5'
+    rotated_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\Preprocessing\rotated_and_filtered_invoice_5'
+    cut_directory = r'C:\Users\user\Desktop\ksn\Invoice_System\Preprocessing\cut_invoice'
 
     # 자주 등장하는 단어 리스트 설정 (예시)
     common_words = [
@@ -59,4 +59,4 @@ def Main_preprocessing():
     print(f"Total processing time: {total_elapsed_time:.2f} seconds")
 
 if __name__ == "__main__":
-    main()
+    Main_preprocessing()
