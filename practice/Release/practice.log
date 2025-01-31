@@ -1,0 +1,7 @@
+﻿  practice.cpp
+practice.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp__Py_Finalize
+practice.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp__Py_Initialize
+practice.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp__PyRun_SimpleStringFlags
+practice.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp__Py_IsInitialized
+practice.obj : error LNK2001: 확인할 수 없는 외부 기호 __imp__PyErr_Print
+C:\Users\user\Desktop\ksn\practice\Release\practice.exe : fatal error LNK1120: 5개의 확인할 수 없는 외부 참조입니다.
