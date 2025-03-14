@@ -16,10 +16,27 @@ import cv2
 import numpy as np
 import os
 import time
+import json
 
 class DocumentProcessor:
     def __init__(self):
-        pass
+        
+        # 처리된 파일 목록을 파일에서 로드
+        self.processed_files_path = r"C:\Users\user\Desktop\ksn\Invoice_System\processed_files.json"
+        self.processed_files = self.load_processed_files()
+        
+    def load_processed_files(self):
+        """처리된 파일 목록을 JSON 파일에서 로드"""
+        if os.path.exists(self.processed_files_path):
+            with open(self.processed_files_path, 'r') as f:
+                return set(json.load(f))
+        else:
+            return set()
+
+    def save_processed_files(self):
+        """처리된 파일 목록을 JSON 파일에 저장"""
+        with open(self.processed_files_path, 'w') as f:
+            json.dump(list(self.processed_files), f)    
 
     def order_points(self, pts):
         """주어진 4개의 점을 정렬합니다 (상단 왼쪽, 상단 오른쪽, 하단 오른쪽, 하단 왼쪽)."""
@@ -91,7 +108,10 @@ class DocumentProcessor:
         M = cv2.getPerspectiveTransform(rect, dst)
         warped = cv2.warpPerspective(image, M, (maxWidth, maxHeight), flags=cv2.INTER_CUBIC)
         return warped
-
+    
+    
+        
+        
     def process_images_in_directory(self, directory_path, result_directory, cut_directory):
         """디렉토리 내의 모든 이미지를 처리합니다."""
         if not os.path.exists(result_directory):
@@ -102,30 +122,48 @@ class DocumentProcessor:
             os.makedirs(cut_directory)
             print(f"Created directory: {cut_directory}")
 
-        cut_documents_count = 0
+        
 
         for filename in os.listdir(directory_path):
-            if filename.lower().endswith(".jpg"):
+            if filename not in self.processed_files:
                 image_path = os.path.join(directory_path, filename)
                 image = cv2.imread(image_path)
                 document_edges = self.find_document_edges(image)
+                
+                
                 if document_edges is not None:
                     if not self.is_document_cut(document_edges.reshape(4, 2), image.shape):
+                        # 처리된 파일 목록에 추가
+                        self.processed_files.add(filename)
+                        self.save_processed_files()
                         warped = self.warp_perspective(image, document_edges)
                         base_filename, file_extension = os.path.splitext(filename)
                         save_filename = f"{base_filename}_warped{file_extension}"
                         save_path = os.path.join(result_directory, save_filename)
                         cv2.imwrite(save_path, warped)
                         print(f"Processed and saved: {save_path}")
+                          # 처리된 파일 목록 저장
+                        return True
                     else:
-                        cut_documents_count += 1
-                        cut_save_path = os.path.join(cut_directory, filename)
+                        # 처리된 파일 목록에 추가
+                        self.processed_files.add(filename)
+                        self.save_processed_files()
+                        base_filename, file_extension = os.path.splitext(filename)
+                        save_filename = f"{base_filename}_cutted{file_extension}"
+                        cut_save_path = os.path.join(cut_directory, save_filename)
                         cv2.imwrite(cut_save_path, image)
                         print(f"Document edges are too close to the image boundary, saved to {cut_save_path}")
+                          # 처리된 파일 목록 저장
+                        return False
                 else:
+                    # 처리된 파일 목록에 추가
+                    self.processed_files.add(filename)
+                    self.save_processed_files()  # 처리된 파일 목록 저장
                     print(f"No document edges found for: {filename}")
+                   
+                    return False
 
-        print(f"Total cut documents excluded: {cut_documents_count}")
+        
 
 
 # 메인 실행 부분

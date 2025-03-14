@@ -9,6 +9,7 @@ import cv2
 import easyocr
 import os
 import time
+import json
 
 class ImageRotatorAndFilter:
     def __init__(self, common_words):
@@ -16,6 +17,24 @@ class ImageRotatorAndFilter:
         self.reader = easyocr.Reader(['ko', 'en'])
         # 자주 등장하는 단어 리스트
         self.common_words = common_words
+        
+        # 처리된 파일 목록을 파일에서 로드
+        self.processed_files_path = r"C:\Users\user\Desktop\ksn\Invoice_System\processed_files.json"
+        self.processed_files = self.load_processed_files()
+        
+    
+    def load_processed_files(self):
+        """처리된 파일 목록을 JSON 파일에서 로드"""
+        if os.path.exists(self.processed_files_path):
+            with open(self.processed_files_path, 'r') as f:
+                return set(json.load(f))
+        else:
+            return set()
+
+    def save_processed_files(self):
+        """처리된 파일 목록을 JSON 파일에 저장"""
+        with open(self.processed_files_path, 'w') as f:
+            json.dump(list(self.processed_files), f)
 
     def rotate_image(self, image, angle):
         """이미지를 주어진 각도로 회전합니다."""
@@ -69,44 +88,51 @@ class ImageRotatorAndFilter:
                 best_angle = angle
 
         return best_angle
+    
+    
+         
 
     def process_images_in_directory(self, image_dir, output_dir):
         """디렉토리 내의 모든 이미지를 처리하여 회전 및 필터링합니다."""
         os.makedirs(output_dir, exist_ok=True)
-        image_paths = [os.path.join(image_dir, filename) for filename in os.listdir(image_dir) if filename.endswith(('.jpg', '.png', '.jpeg'))]
+        
 
-        total_start_time = time.time()
-        for image_path in image_paths:
-            start_time = time.time()
-            image = cv2.imread(image_path)
+        for filename in os.listdir(image_dir) :
+            if filename not in self.processed_files:
+                # 처리된 파일 목록에 추가
+                self.processed_files.add(filename)
+                self.save_processed_files()
+                image_path = os.path.join(image_dir, filename)
+                
+            
+                image = cv2.imread(image_path)
 
-            # 최적의 회전 각도 찾기
-            best_rotation_angle = self.get_best_rotation(image)
-            print(f"{image_path}: Best rotation angle = {best_rotation_angle} degrees")
+                # 최적의 회전 각도 찾기
+                best_rotation_angle = self.get_best_rotation(image)
+                
 
-            # 이미지 회전
-            corrected_image = self.rotate_image(image, best_rotation_angle)
+                # 이미지 회전
+                corrected_image = self.rotate_image(image, best_rotation_angle)
 
-            # 회전된 이미지에서 텍스트 추출
-            results = self.reader.readtext(corrected_image)
-            texts = [text for (bbox, text, prob) in results]
+                # 회전된 이미지에서 텍스트 추출
+                results = self.reader.readtext(corrected_image)
+                texts = [text for (bbox, text, prob) in results]
 
-            # 자주 등장하는 단어 포함 여부 확인
-            if self.contains_common_words(texts):
-                # 결과 이미지 저장
-                corrected_image_path = os.path.join(output_dir, f"corrected_{os.path.basename(image_path)}")
-                cv2.imwrite(corrected_image_path, corrected_image)
-                print(f"Processed and saved: {corrected_image_path}")
-            else:
-                print(f"Image {image_path} does not contain common words. Image discarded.")
+                # 자주 등장하는 단어 포함 여부 확인
+                if self.contains_common_words(texts):
+                    
+                    # 결과 이미지 저장
+                    corrected_image_path = os.path.join(output_dir, f"corrected_{os.path.basename(image_path)}")
+                    cv2.imwrite(corrected_image_path, corrected_image)
+                    
+                
+                    return True
+                else:
+                    
+                    
+                    return False
 
-            end_time = time.time()
-            elapsed_time = end_time - start_time
-            print(f"Processing time for {os.path.basename(image_path)}: {elapsed_time:.2f} seconds")
-
-        total_end_time = time.time()
-        total_elapsed_time = total_end_time - total_start_time
-        print(f"Total processing time for {len(image_paths)} images: {total_elapsed_time:.2f} seconds")
+            
 
 
 # 메인 실행 부분

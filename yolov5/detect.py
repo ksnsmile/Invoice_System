@@ -27,14 +27,14 @@ Usage - formats:
                                  yolov5s_edgetpu.tflite     # TensorFlow Edge TPU
                                  yolov5s_paddle_model       # PaddlePaddle
 """
-
+from Check import Main_check
 import argparse
 import csv
 import os
 import platform
 import sys
 from pathlib import Path
-
+from Preprocessing import Main_preprocessing
 import torch
 
 FILE = Path(__file__).resolve()
@@ -108,7 +108,7 @@ def run(
         source = check_file(source)  # download
 
     # 결과 저장 경로를 고정
-    save_dir = Path(r"C:\Users\user\Desktop\ksn\invocie_system_2\preprocessing")
+    save_dir = Path(r"C:\Users\user\Desktop\ksn\Invoice_System\preprocessing")
     save_dir.mkdir(parents=True, exist_ok=True)  # 경로가 없으면 생성
     
     (save_dir / "labels" if save_txt else save_dir).mkdir(parents=True, exist_ok=True)  # make dir
@@ -177,7 +177,10 @@ def run(
                 writer.writerow(data)
 
         # Process predictions
-        for i, det in enumerate(pred):  # per image
+        for i, det in enumerate(pred):
+            
+         
+             # per image
             seen += 1
             if webcam:  # batch_size >= 1
                 p, im0, frame = path[i], im0s[i].copy(), dataset.count
@@ -193,6 +196,8 @@ def run(
             imc = im0.copy() if save_crop else im0  # for save_crop
             annotator = Annotator(im0, line_width=line_thickness, example=str(names))
             if len(det):
+                
+            
                 # Rescale boxes from img_size to im0 size
                 det[:, :4] = scale_boxes(im.shape[2:], det[:, :4], im0.shape).round()
 
@@ -223,7 +228,20 @@ def run(
                         annotator.box_label(xyxy, label, color=colors(c, True))
                     if save_crop:
                         save_one_box(xyxy, imc, file=save_dir / "crops" / names[c] / f"{p.stem}.jpg", BGR=True)
-
+                        
+                        print('전처리')
+                        flag=Main_preprocessing()
+                                
+                                
+                        if flag:
+                                print('전처리 완료')
+                                print("정보 추출")
+                                Main_check()  # check.py의 main 함수 실행
+                                print("정보 추출 완료")
+                        else:
+                                print("전처리 실패") 
+           
+            
             # Stream results
             im0 = annotator.result()
             if view_img:
@@ -257,7 +275,7 @@ def run(
 
         # Print time (inference-only)
         LOGGER.info(f"{s}{'' if len(det) else '(no detections), '}{dt[1].dt * 1E3:.1f}ms")
-
+        print('감지완료' if len(det) else '감지실패')
     # Print results
     t = tuple(x.t / seen * 1e3 for x in dt)  # speeds per image
     LOGGER.info(f"Speed: %.1fms pre-process, %.1fms inference, %.1fms NMS per image at shape {(1, 3, *imgsz)}" % t)
