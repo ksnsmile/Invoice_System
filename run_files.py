@@ -8,7 +8,7 @@ This is a temporary script file.
 # run.py
 
 from yolov5.detect import Main_YOLO, parse_opt
-from threading import Thread
+
 
 def main():
     
@@ -29,7 +29,8 @@ def main():
       
       print("완료")      
 
-#%%    
+#%%
 if __name__ == "__main__":
     main()
+    
 #%%

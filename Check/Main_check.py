@@ -66,7 +66,8 @@ def Main_check():
         preprocessed_data = {}
         for file_name in os.listdir(folder_path):
             if file_name not in processed_files:
-                save_processed_files(processed_files_file,file_name)
+                processed_files.add(file_name)
+                save_processed_files(processed_files_file,processed_files)
                 print(f"Loading {file_name}...")
                 file_path = os.path.join(folder_path, file_name)
                 
@@ -174,8 +175,9 @@ def Main_check():
                 plt.imshow(img)
                 plt.axis('off')
                 plt.title(f"LayoutLM Detection Results : {file_name}")
-                plt.savefig(fr"C:\Users\user\Desktop\ksn\Invoice_System\Results\{file_name}.png")
+                
                 plt.show()
+                plt.savefig(fr"C:\Users\user\Desktop\ksn\Invoice_System\Results\{file_name}.png")
                 plt.close()
                 
             except Exception as e:
